@@ -1,0 +1,26 @@
+{
+  "name": "Control Money",
+  "short_name": "Money",
+  "description": "Control personal de ingresos, egresos y fondos.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#090a0d",
+  "background_color": "#090a0d",
+  "icons": [
+    {
+      "src": "control-money-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "control-money-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
