@@ -1,4 +1,4 @@
-const CACHE_NAME = 'control-money-v2'
+const CACHE_NAME = 'control-money-v3'
 const BASE_PATH = new URL(self.registration.scope).pathname
 const fromBase = (path = '') => `${BASE_PATH}${path}`
 const STATIC_FILES = [fromBase('manifest.webmanifest'), fromBase('control-money-icon-192.png'), fromBase('control-money-icon-512.png')]

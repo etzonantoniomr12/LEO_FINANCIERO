@@ -21,6 +21,19 @@ body { margin: 0; min-width: 320px; min-height: 100vh; background: #f5f6fa; }
 button, input, select, textarea { font: inherit; }
 button { -webkit-tap-highlight-color: transparent; }
 
+.pin-lock { display: grid; place-items: center; min-height: 100dvh; padding: calc(24px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom)); background: radial-gradient(circle at 50% 12%, #3e3217, transparent 34%), #08090c; }
+.pin-card { display: grid; width: min(100%, 420px); padding: 30px 24px; border: 1px solid #675427; border-radius: 30px; background: linear-gradient(145deg, #1a1b1f, #101115); box-shadow: 0 24px 70px rgba(0,0,0,.48); text-align: center; }
+.pin-card > img { width: 82px; height: 82px; margin: 0 auto 18px; border-radius: 24px; box-shadow: 0 10px 28px rgba(230,189,79,.16); }
+.pin-card h1 { margin: 5px 0 8px; color: #efc85f; font-size: 1.75rem; letter-spacing: -.035em; }
+.pin-card > p { margin: 0 auto 24px; max-width: 300px; color: #aaa79f; font-size: .78rem; line-height: 1.5; }
+.pin-card label { margin-bottom: 7px; color: #c7c2b7; font-size: .7rem; font-weight: 800; text-align: left; }
+.pin-card input { min-height: 62px; padding: 10px 16px; border-color: #514526; color: #f1ce6d; background: #0d0e11; font-size: 1.8rem; font-weight: 800; letter-spacing: .45em; text-align: center; }
+.pin-card input:focus { border-color: #e6bd4f; box-shadow: 0 0 0 4px rgba(230,189,79,.13); }
+.pin-card > small { margin: 7px 0 18px; color: #77746e; font-size: .63rem; }
+.pin-card .primary-button { min-height: 54px; }
+.pin-card .primary-button:disabled { opacity: .42; cursor: default; }
+.pin-error { margin: -7px 0 13px !important; color: #f09ba5 !important; font-size: .7rem !important; }
+
 .app-shell { min-height: 100dvh; max-width: 720px; margin: 0 auto; padding-bottom: calc(96px + env(safe-area-inset-bottom)); background: #f5f6fa; }
 .top-bar { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 94px; padding: calc(16px + env(safe-area-inset-top)) 20px 14px; background: rgba(245, 246, 250, .94); backdrop-filter: blur(18px); }
 .top-bar h1 { margin: 2px 0 0; font-size: 1.55rem; line-height: 1.15; letter-spacing: -.03em; }
@@ -342,7 +355,125 @@ option, optgroup { color: #f3f0e8; background: #1b1c20; }
 .demo-banner { border-color: #57491f; color: #e3c76f; background: #282113; }
 .demo-banner a { color: #17130a; background: #e4bc50; }
 .backup-config { background: #111216; }
+.backup-identity { margin: 0 0 12px; padding: 12px 14px; border: 1px solid #303137; border-radius: 15px; color: #aaa79f; background: #111216; font-size: .7rem; line-height: 1.45; }
 .backup-actions .download { color: #91d5b2; background: #173126; }
 .backup-success { border-color: #285b45; color: #8bd0ad; background: #152b22; }
 .form-error, .global-error { border-color: #71333b; color: #f09ba5; background: #321c20; }
 body { background: #050609; }
+
+/* En Android algunos equipos de alta densidad exponen un viewport lógico muy
+   ancho. En una pantalla táctil vertical la interfaz debe comportarse como una
+   app móvil a ancho completo, no como una columna web de escritorio. */
+@media (pointer: coarse) and (orientation: portrait), (orientation: portrait) and (max-width: 1100px) {
+  html { font-size: clamp(16px, 2.4vw, 24px); }
+  body { min-width: 0; }
+  .app-shell,
+  .bottom-nav { width: 100%; max-width: none; }
+  .movement-sheet { width: 100%; max-width: none; }
+  .top-bar {
+    min-height: clamp(94px, 13vw, 126px);
+    padding-right: clamp(20px, 4vw, 40px);
+    padding-left: clamp(20px, 4vw, 40px);
+  }
+  main { padding-right: clamp(16px, 3.5vw, 34px); padding-left: clamp(16px, 3.5vw, 34px); }
+  .page-stack { gap: clamp(14px, 2.5vw, 24px); }
+  .panel { padding: clamp(18px, 3vw, 30px); }
+  .balance-card {
+    min-height: clamp(286px, 48vw, 470px);
+    padding: clamp(25px, 4vw, 40px);
+  }
+  .wealth-image {
+    top: clamp(28px, 5vw, 50px);
+    width: min(58%, 390px);
+    height: clamp(175px, 28vw, 275px);
+  }
+  .balance-card > strong { margin-top: clamp(62px, 9vw, 90px); }
+  .balance-card > .wealth-month { margin-top: clamp(26px, 4vw, 40px); }
+  .bottom-nav { height: calc(clamp(76px, 11vw, 104px) + env(safe-area-inset-bottom)); }
+  .bottom-nav button { height: clamp(58px, 8vw, 76px); }
+  .fab {
+    bottom: calc(clamp(45px, 6.5vw, 64px) + env(safe-area-inset-bottom));
+    width: clamp(62px, 8.5vw, 82px);
+    height: clamp(62px, 8.5vw, 82px);
+  }
+}
+
+/* Carrusel cultural de la nueva familia de billetes peruanos. */
+.banknote-theme {
+  --note-deep: #15130d;
+  --note-main: #554015;
+  --note-glow: rgba(226,180,61,.24);
+  --note-accent: #f2cf6f;
+  --note-soft: #ddd5bf;
+  min-height: 318px;
+  border-color: color-mix(in srgb, var(--note-accent) 65%, #332f27);
+  background:
+    radial-gradient(circle at 82% 35%, var(--note-glow), transparent 43%),
+    linear-gradient(122deg, var(--note-deep), var(--note-main));
+  transition: background .55s ease, border-color .55s ease;
+}
+.banknote-ten { --note-deep:#0c1710; --note-main:#27583a; --note-glow:rgba(75,184,111,.30); --note-accent:#cde49b; --note-soft:#c9dbc4; }
+.banknote-twenty { --note-deep:#1b120b; --note-main:#765022; --note-glow:rgba(224,155,62,.32); --note-accent:#f0cf83; --note-soft:#e0c7a1; }
+.banknote-fifty { --note-deep:#1b0d15; --note-main:#78314f; --note-glow:rgba(225,86,148,.30); --note-accent:#f3b1ce; --note-soft:#dfbdcc; }
+.banknote-one-hundred { --note-deep:#09131d; --note-main:#194f78; --note-glow:rgba(71,158,218,.32); --note-accent:#a9d8f1; --note-soft:#bfd3df; }
+.banknote-two-hundred { --note-deep:#15101d; --note-main:#60427b; --note-glow:rgba(168,113,205,.34); --note-accent:#e2c5eb; --note-soft:#d4c4dc; }
+.banknote-theme .wealth-heading span { color: var(--note-soft); }
+.banknote-theme .wealth-heading button { color: var(--note-accent); }
+.eye-symbol { position:relative; display:block; width:18px; height:12px; border:2px solid currentColor; border-radius:70% 20% 70% 20%; transform:rotate(45deg); }
+.eye-symbol::after { content:""; position:absolute; inset:2px; border-radius:50%; background:currentColor; }
+.eye-symbol.closed::before { content:""; position:absolute; left:7px; top:-5px; width:2px; height:18px; border-radius:2px; background:currentColor; }
+.eye-symbol.closed::after { opacity:.28; }
+.banknote-person { position:absolute; z-index:1; right:-8px; top:14px; width:min(61%, 330px); height:230px; padding:0; border:0; color:var(--note-accent); background:transparent; cursor:pointer; }
+.banknote-person img { width:100%; height:100%; object-fit:contain; object-position:right top; filter:drop-shadow(0 13px 15px rgba(0,0,0,.38)); transition:opacity .25s ease, transform .4s ease; }
+.banknote-person:hover img, .banknote-person:focus-visible img { transform:translateY(-3px) scale(1.015); }
+.banknote-person > span { position:absolute; right:20px; bottom:3px; max-width:88%; padding:6px 9px; border:1px solid color-mix(in srgb, var(--note-accent) 32%, transparent); border-radius:999px; color:var(--note-accent); background:rgba(8,8,11,.56); font-size:.56rem; font-weight:750; white-space:nowrap; backdrop-filter:blur(8px); }
+.balance-card > .balance-amount { position:relative; z-index:2; display:flex; align-items:baseline; gap:7px; max-width:62%; margin:82px 0 4px; color:var(--note-accent); letter-spacing:-.055em; line-height:.86; }
+.balance-amount > span:last-child { font-size:clamp(3.4rem, 14vw, 6.2rem); font-weight:800; }
+.balance-currency { font-size:clamp(2.3rem, 7vw, 3.7rem); font-weight:650; letter-spacing:-.04em; }
+.banknote-theme > small { color:var(--note-soft); }
+.banknote-theme > .wealth-month { margin-top:24px; }
+.banknote-theme > .wealth-month span { border-color:color-mix(in srgb, var(--note-accent) 18%, transparent); color:var(--note-soft); }
+.banknote-theme > .wealth-month b { color:var(--note-accent); }
+.banknote-dots { position:absolute; z-index:3; right:25px; top:244px; display:flex !important; grid-template-columns:none !important; gap:5px !important; }
+.banknote-dots button { width:6px; height:6px; padding:0; border:0; border-radius:999px; background:rgba(255,255,255,.30); transition:width .22s ease, background .22s ease; }
+.banknote-dots button.active { width:18px; background:var(--note-accent); }
+
+.banknote-modal-backdrop { position:fixed; z-index:100; inset:0; display:flex; align-items:flex-end; justify-content:center; padding-top:18px; background:rgba(0,0,0,.78); backdrop-filter:blur(7px); }
+.banknote-story { --note-main:#554015; --note-accent:#f2cf6f; --note-soft:#ddd5bf; overflow:hidden auto; position:relative; width:min(100%,720px); min-height:calc(100dvh - 18px); max-height:calc(100dvh - 18px); padding:20px 20px calc(24px + env(safe-area-inset-bottom)); border:1px solid color-mix(in srgb, var(--note-accent) 45%, #343138); border-radius:30px 30px 0 0; color:#f5f1e8; background:radial-gradient(circle at 85% 18%, color-mix(in srgb, var(--note-main) 70%, transparent), transparent 38%),#111216; box-shadow:0 -22px 60px rgba(0,0,0,.58); }
+.banknote-story-header { position:relative; z-index:2; display:flex; align-items:start; justify-content:space-between; gap:14px; }
+.banknote-story-header span { color:var(--note-soft); font-size:.58rem; font-weight:800; letter-spacing:.12em; }
+.banknote-story-header h2 { margin:4px 0 0; color:var(--note-accent); font-size:1.25rem; }
+.banknote-story-header button { display:grid; place-items:center; flex:none; width:42px; height:42px; border:0; border-radius:14px; color:var(--note-accent); background:rgba(0,0,0,.28); font-size:1.65rem; }
+.banknote-story-portrait { height:min(42dvh, 370px); margin:4px -8px 0; text-align:center; }
+.banknote-story-portrait img { width:100%; height:100%; object-fit:contain; filter:drop-shadow(0 17px 20px rgba(0,0,0,.42)); }
+.banknote-story-copy { padding:15px 16px; border:1px solid color-mix(in srgb, var(--note-accent) 20%, #29292e); border-radius:18px; background:rgba(13,14,17,.72); }
+.banknote-story-copy span { color:var(--note-accent); font-size:.72rem; font-weight:800; }
+.banknote-story-copy p { margin:6px 0 0; color:#c9c5bd; font-size:.72rem; line-height:1.5; }
+.banknote-story-facts { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:10px; }
+.banknote-story-facts article { padding:12px; border-radius:16px; background:#1b1c20; }
+.banknote-story-facts small { display:block; color:#85827c; font-size:.51rem; font-weight:800; letter-spacing:.08em; }
+.banknote-story-facts b { display:block; margin-top:5px; color:#e5e1d9; font-size:.65rem; line-height:1.35; }
+.banknote-story-nav { display:grid; grid-template-columns:48px 1fr 48px; align-items:center; gap:10px; margin-top:12px; text-align:center; }
+.banknote-story-nav button { height:44px; border:0; border-radius:14px; color:#17130a; background:var(--note-accent); font-size:1.7rem; }
+.banknote-story-nav span { color:var(--note-soft); font-size:.7rem; font-weight:800; }
+
+@media (max-width:380px) {
+  .banknote-person { width:58%; height:205px; }
+  .balance-card > .balance-amount { max-width:67%; margin-top:76px; }
+  .balance-amount > span:last-child { font-size:3.15rem; }
+  .balance-currency { font-size:2rem; }
+  .banknote-story-facts { grid-template-columns:1fr; }
+}
+
+@media (pointer:coarse) and (orientation:portrait), (orientation:portrait) and (max-width:1100px) {
+  .banknote-theme { min-height:clamp(318px, 48vw, 470px); }
+  .banknote-person { top:clamp(14px, 3vw, 30px); width:min(58%, 430px); height:clamp(230px, 31vw, 310px); }
+  .banknote-person > span { right:clamp(20px, 3vw, 34px); font-size:clamp(.56rem, 1.35vw, .72rem); }
+  .balance-card > .balance-amount { margin-top:clamp(82px, 11vw, 110px); }
+  .banknote-dots { right:clamp(25px, 4vw, 40px); top:clamp(244px, 34vw, 340px); }
+  .banknote-theme > .wealth-month { margin-top:clamp(24px, 3.5vw, 36px); }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .banknote-theme, .banknote-person img, .banknote-dots button { transition:none; }
+}

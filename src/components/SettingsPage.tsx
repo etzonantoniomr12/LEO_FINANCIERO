@@ -6,6 +6,7 @@ import { GoogleSheetsBackupService } from '../data/googleSheetsBackup'
 import { categoryIconOptions, EntityIcon, fundIconOptions } from './EntityIcon'
 
 const authorizedSheetId = import.meta.env.VITE_GOOGLE_SHEET_ID || ''
+const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || ''
 
 interface SettingsPageProps {
   snapshot: FinanceSnapshot
@@ -26,7 +27,6 @@ export function SettingsPage({ snapshot, onSaveFund, onSaveCategory, onRestoreSn
   const [parentId, setParentId] = useState('')
   const [editingCategory, setEditingCategory] = useState<Category | null>(null)
   const [error, setError] = useState('')
-  const [googleClientId, setGoogleClientId] = useState(() => localStorage.getItem('control-money.google-client-id') ?? import.meta.env.VITE_GOOGLE_CLIENT_ID ?? '')
   const [backupBusy, setBackupBusy] = useState(false)
   const [backupStatus, setBackupStatus] = useState('')
 
@@ -100,14 +100,13 @@ export function SettingsPage({ snapshot, onSaveFund, onSaveCategory, onRestoreSn
   )
 
   const persistGoogleConfiguration = () => {
-    localStorage.setItem('control-money.google-client-id', googleClientId.trim())
     return authorizedSheetId
   }
 
   const uploadBackup = async () => {
     const spreadsheetId = persistGoogleConfiguration()
     if (!spreadsheetId) return setError('El Sheet autorizado no está configurado en esta publicación.')
-    if (!googleClientId.trim()) return setError('Completa un ID de cliente OAuth válido.')
+    if (!googleClientId.trim()) return setError('La autorización de Google no está configurada en esta publicación.')
     if (!window.confirm('Subir reemplazará el respaldo administrado por Control Money en Google Sheets. ¿Deseas continuar?')) return
     setBackupBusy(true); setError(''); setBackupStatus('')
     try {
@@ -121,7 +120,7 @@ export function SettingsPage({ snapshot, onSaveFund, onSaveCategory, onRestoreSn
   const downloadBackup = async () => {
     const spreadsheetId = persistGoogleConfiguration()
     if (!spreadsheetId) return setError('El Sheet autorizado no está configurado en esta publicación.')
-    if (!googleClientId.trim()) return setError('Completa un ID de cliente OAuth válido.')
+    if (!googleClientId.trim()) return setError('La autorización de Google no está configurada en esta publicación.')
     setBackupBusy(true); setError(''); setBackupStatus('')
     try {
       const downloaded = await new GoogleSheetsBackupService(googleClientId.trim(), spreadsheetId).download()
@@ -204,9 +203,7 @@ export function SettingsPage({ snapshot, onSaveFund, onSaveCategory, onRestoreSn
         <div className="section-heading"><div><span className="eyebrow">RESPALDO</span><h2>Google Sheets</h2></div></div>
         <p className="backup-copy">Sube una copia completa o restaura la base local desde el Sheet autorizado. La restauración valida el respaldo antes de reemplazar tus datos.</p>
         {backupDisabled ? <p className="form-error">El respaldo está desactivado dentro del modo demostración.</p> : <>
-          <div className="compact-form backup-config">
-            <label><span>ID de cliente OAuth</span><input aria-label="ID de cliente OAuth" placeholder="….apps.googleusercontent.com" value={googleClientId} onChange={(event) => setGoogleClientId(event.target.value)} /></label>
-          </div>
+          <p className="backup-identity">La sincronización utiliza la cuenta Google autorizada para esta publicación.</p>
           <div className="backup-actions">
             <button className="primary-button upload" type="button" disabled={backupBusy} onClick={() => void uploadBackup()}><span>↑</span>{backupBusy ? 'Procesando…' : 'Subir a Sheets'}</button>
             <button className="primary-button download" type="button" disabled={backupBusy} onClick={() => void downloadBackup()}><span>↓</span>{backupBusy ? 'Procesando…' : 'Descargar de Sheets'}</button>
