@@ -33,10 +33,23 @@ describe('aplicación', () => {
 
   it('muestra fondos, saldos y actividad mensual', async () => {
     render(<App repository={repository} requirePin={false} />)
+    expect(await screen.findByRole('img', { name: 'Mr Etzon Antonio' })).toBeInTheDocument()
     expect(await screen.findByText('BCP')).toBeInTheDocument()
     expect(screen.getByText('Comida')).toBeInTheDocument()
     expect(screen.getAllByText(/90[,.]00/)).toHaveLength(2)
     expect(screen.queryByRole('button', { name: /Comida/ })).not.toBeInTheDocument()
+  })
+
+  it('abre la portada editorial desde el botón de noticias', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({ updatedAt: '', categories: { economy: [], science: [], civil: [], nobel: [], ai: [], spreadsheets: [], blog_sc: [] } }) }))
+    render(<App repository={repository} requirePin={false} />)
+    fireEvent.click(await screen.findByRole('button', { name: 'Noticias' }))
+    expect(screen.getByText('NOTICIAS MUNDO')).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: 'Mr Etzon Antonio' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Economía que mueve tus decisiones' })).toBeInTheDocument()
+    expect(screen.queryByRole('heading', { name: 'Lee aquí. Profundiza en la fuente.' })).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Volver al inicio' })).toBeInTheDocument()
+    vi.unstubAllGlobals()
   })
 
   it('permite editar solo desde Movimientos y muestra sus filtros', async () => {

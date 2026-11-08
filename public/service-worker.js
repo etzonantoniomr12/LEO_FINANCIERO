@@ -1,7 +1,15 @@
-const CACHE_NAME = 'control-money-v3'
+const CACHE_NAME = 'leo-financiero-v5'
 const BASE_PATH = new URL(self.registration.scope).pathname
 const fromBase = (path = '') => `${BASE_PATH}${path}`
-const STATIC_FILES = [fromBase('manifest.webmanifest'), fromBase('control-money-icon-192.png'), fromBase('control-money-icon-512.png')]
+const STATIC_FILES = [
+  fromBase('manifest.webmanifest'),
+  fromBase('control-money-icon-192.png'),
+  fromBase('control-money-icon-512.png'),
+  fromBase('mr-etzon-antonio-signature.png'),
+  fromBase('news-feed.json'),
+  ...['chabuca-granda', 'jose-maria-arguedas', 'maria-rostworowski', 'pedro-paulet', 'tilsa-tsuchiya']
+    .flatMap((name) => [fromBase(`banknote-portraits/${name}.png`), fromBase(`banknote-stories/${name}-life.webp`)]),
+]
 
 async function cacheAppShell() {
   const cache = await caches.open(CACHE_NAME)

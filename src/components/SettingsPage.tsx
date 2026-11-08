@@ -107,7 +107,7 @@ export function SettingsPage({ snapshot, onSaveFund, onSaveCategory, onRestoreSn
     const spreadsheetId = persistGoogleConfiguration()
     if (!spreadsheetId) return setError('El Sheet autorizado no está configurado en esta publicación.')
     if (!googleClientId.trim()) return setError('La autorización de Google no está configurada en esta publicación.')
-    if (!window.confirm('Subir reemplazará el respaldo administrado por Control Money en Google Sheets. ¿Deseas continuar?')) return
+    if (!window.confirm('Subir reemplazará el respaldo administrado por LEO Financiero en Google Sheets. ¿Deseas continuar?')) return
     setBackupBusy(true); setError(''); setBackupStatus('')
     try {
       const backedUpAt = await new GoogleSheetsBackupService(googleClientId.trim(), spreadsheetId).upload(snapshot)

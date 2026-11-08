@@ -1,6 +1,6 @@
 {
-  "name": "Control Money",
-  "short_name": "Money",
+  "name": "LEO Financiero",
+  "short_name": "LEO",
   "description": "Control personal de ingresos, egresos y fondos.",
   "lang": "es",
   "start_url": "./",

@@ -11,8 +11,9 @@ import { filterMovements, localDateKey } from './domain/movementFilters'
 import { EntityIcon, publicAsset } from './components/EntityIcon'
 import { BanknoteCarousel } from './components/BanknoteCarousel'
 import { AppLock } from './components/AppLock'
+import { NewsPage } from './components/NewsPage'
 
-type Tab = 'home' | 'movements' | 'income' | 'expense' | 'settings'
+type Tab = 'home' | 'movements' | 'income' | 'expense' | 'news' | 'settings'
 
 const emptySnapshot: FinanceSnapshot = { funds: [], categories: [], movements: [] }
 
@@ -103,7 +104,7 @@ export default function App({ repository: suppliedRepository, initialAnalysisMon
     await refresh()
   }
 
-  const pageTitle = tab === 'home' ? 'Control Money' : tab === 'movements' ? 'Movimientos' : tab === 'income' ? 'Ingresos' : tab === 'expense' ? 'Egresos' : 'Configuración'
+  const pageTitle = tab === 'movements' ? 'Movimientos' : tab === 'income' ? 'Ingresos' : tab === 'expense' ? 'Egresos' : tab === 'news' ? 'Portada editorial' : 'Configuración'
   const canAddMovement = snapshot.funds.some((fund) => !fund.archived) && snapshot.categories.some((category) => !category.archived)
 
   if (!unlocked) return <AppLock onUnlock={() => setUnlocked(true)} />
@@ -111,9 +112,16 @@ export default function App({ repository: suppliedRepository, initialAnalysisMon
 
   return (
     <div className="app-shell">
-      <header className="top-bar">
-        <div><span className="eyebrow">FINANZAS PERSONALES</span><h1>{pageTitle}</h1></div>
-        <button className={`icon-button ${tab === 'settings' ? 'active' : ''}`} aria-label="Configuración" onClick={() => setTab(tab === 'settings' ? 'home' : 'settings')}>⚙</button>
+      <header className={`top-bar ${tab === 'home' || tab === 'news' ? 'home-top-bar' : ''}`}>
+        {tab === 'home'
+          ? <div className="personal-brand"><span className="eyebrow">FINANZAS PERSONALES</span><img src={publicAsset('/mr-etzon-antonio-signature.png')} alt="Mr Etzon Antonio" /></div>
+          : tab === 'news'
+            ? <div className="personal-brand news-brand"><span className="eyebrow">NOTICIAS MUNDO</span><img src={publicAsset('/mr-etzon-antonio-signature.png')} alt="Mr Etzon Antonio" /></div>
+            : <div><span className="eyebrow">LEO FINANCIERO</span><h1>{pageTitle}</h1></div>}
+        <div className="top-actions">
+          <button className={`icon-button news-button ${tab === 'news' ? 'active' : ''}`} aria-label={tab === 'news' ? 'Volver al inicio' : 'Noticias'} onClick={() => setTab(tab === 'news' ? 'home' : 'news')}><span aria-hidden="true">▤</span></button>
+          <button className={`icon-button ${tab === 'settings' ? 'active' : ''}`} aria-label="Configuración" onClick={() => setTab(tab === 'settings' ? 'home' : 'settings')}>⚙</button>
+        </div>
       </header>
 
       {error && <div className="global-error" role="alert">{error}</div>}
@@ -124,10 +132,11 @@ export default function App({ repository: suppliedRepository, initialAnalysisMon
         {tab === 'movements' && <MovementsPage snapshot={snapshot} onEdit={setEditingMovement} />}
         {tab === 'income' && <IncomePage snapshot={snapshot} initialMonth={initialAnalysisMonth} />}
         {tab === 'expense' && <ExpensePage snapshot={snapshot} initialMonth={initialAnalysisMonth} />}
+        {tab === 'news' && <NewsPage />}
         {tab === 'settings' && <SettingsPage snapshot={snapshot} onSaveFund={saveFund} onSaveCategory={saveCategory} onRestoreSnapshot={restoreSnapshot} backupDisabled={demoMode} />}
       </main>
 
-      {tab !== 'settings' && (
+      {tab !== 'settings' && tab !== 'news' && (
         <>
           <button
             className="fab"
@@ -135,7 +144,7 @@ export default function App({ repository: suppliedRepository, initialAnalysisMon
             disabled={!canAddMovement}
             title={canAddMovement ? 'Registrar movimiento' : 'Crea primero un fondo y una categoría'}
             onClick={() => setEditingMovement(null)}
-          >+
+          ><span aria-hidden="true">+</span>
           </button>
           <nav className="bottom-nav" aria-label="Navegación principal">
             <NavButton label="Inicio" icon="⌂" active={tab === 'home'} onClick={() => setTab('home')} />

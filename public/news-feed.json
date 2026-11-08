@@ -1,0 +1,1749 @@
+{
+  "updatedAt": "2026-11-08T02:56:45.358Z",
+  "categoryUpdatedAt": {
+    "economy": "2026-11-08T02:29:30.577Z",
+    "science": "2026-11-08T02:29:30.577Z",
+    "civil": "2026-11-08T02:29:30.577Z",
+    "nobel": "2026-11-08T02:29:30.577Z",
+    "ai": "2026-11-08T02:29:30.577Z",
+    "spreadsheets": "2026-11-08T02:29:30.577Z",
+    "blog_sc": "2026-11-08T02:56:45.358Z"
+  },
+  "categories": {
+    "economy": [
+      {
+        "id": "9e58291a4cad487a",
+        "title": "Gloria acelera su negocio de panetones: ¿qué pasa dentro de su planta y cuánto espera crecer?",
+        "summary": "Gloria se prepara para la campaña navideña 2026 con una producción de 42,500 panetones diarios, nuevas variedades y una proyección de crecimiento de hasta 10%.",
+        "source": "Gestión",
+        "url": "https://gestion.pe/economia/empresas/que-hay-detras-del-paneton-gloria-asi-prepara-su-negocio-para-navidad-y-busca-crecer-hasta-10-noticia/",
+        "publishedAt": "2026-11-08T01:32:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/TJI2IDU57NCLVNJGX6F22GD6EI.jpeg?auth=0b13e3f697e4e7e4307949fc16b7d034b979e36d98ec48d1876b8d29cb9c4eec&smart=true&width=1600&height=1200",
+        "language": "es"
+      },
+      {
+        "id": "dd9af9a934a2c57c",
+        "title": "¿Una alternativa para elevar la productividad del agro peruano? Los cultivos en el radar",
+        "summary": "La tecnología agrícola de Israel podría mejorar la productividad del agro peruano. Conoce las alternativas para optimizar el uso del agua y reducir costos en estos cultivos.",
+        "source": "Gestión",
+        "url": "https://gestion.pe/economia/agricultura-de-peru-una-alternativa-para-elevar-la-productividad-del-agro-los-cultivos-en-el-radar-noticia/",
+        "publishedAt": "2026-11-08T00:31:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/JKQYBU564VGAPDRK5NXVDS4D7U.png?auth=70740d5848486e048711ed3769b8afe7733eb0525f40242a5c7a0a90307a1c2d&smart=true&width=1672&height=940",
+        "language": "es"
+      },
+      {
+        "id": "252a14b9cf00a89b",
+        "title": "El papa en el Centro de Lima: negocios duplicarían ventas y hoteles alcanzarían el 100% de ocupación",
+        "summary": "La llegada del papa León XIV al Perú, prevista del 11 al 16 de noviembre, tendrá uno de sus principales momentos en el Centro Histórico de Lima. El jueves 12, el pontífice participará en actividades en el Palacio Arzobispal, la Catedral de Lima y la Plaza Mayor, luego de llegar a la capital el miércoles 11, cuando también tendrá actividades en Palacio de Go…",
+        "source": "Gestión",
+        "url": "https://gestion.pe/economia/empresas/el-papa-leon-xiv-visitara-el-centro-de-lima-negocios-duplicarian-ventas-y-hoteles-alcanzarian-el-100-de-ocupacion-noticia/",
+        "publishedAt": "2026-11-07T23:31:17.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/KFDXK57EBVGDFD6AY3DNYZM5LU.png?auth=db5a70b41950b114e7c5329080750cb3f670e26ba9eabbfe4efc4459efb2440b&smart=true&width=1672&height=941",
+        "language": "es"
+      },
+      {
+        "id": "719fc9e6baa55c73",
+        "title": "Perú superaría a Chile y sería la cuarta economía más grande de Sudamérica el 2027",
+        "summary": "Perú podría superar a Chile y convertirse en la cuarta economía más grande de Sudamérica en 2027, de acuerdo con la proyección del Fondo Monetario Internacional (FMI). En base en su informe World Economic Outlook, cuyas estimaciones fueron recogidas por el diario chileno La Tercera.",
+        "source": "Gestión",
+        "url": "https://gestion.pe/economia/peru-podria-superar-a-chile-y-convertirse-en-la-cuarta-economia-mas-grande-de-sudamerica-en-2027-noticia/",
+        "publishedAt": "2026-11-07T21:06:25.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/UFFKSENBI5EAFO34WJE7ECG7N4.jpg?auth=adacf43513a9b55a0990e35e8e9643398de62dc20cc12ff33e8a1e59d0e81ab8&smart=true&width=3888&height=2592",
+        "language": "es"
+      },
+      {
+        "id": "5b4c24444cf918c5",
+        "title": "Empresa estadounidense Vista Vineyards apuesta por Perú para la producción de uva",
+        "summary": "La estadounidense Vista Vineyards avanza en su estrategia de producción de uva de mesa en Perú. La compañía completó su primera plantación de más de 200 hectáreas en Olmos, Lambayeque, y prevé iniciar la producción comercial durante la temporada de importación 2027-2028, con el objetivo de complementar su oferta de California y ampliar el periodo de abastec…",
+        "source": "Gestión",
+        "url": "https://gestion.pe/economia/empresas/empresa-estadounidense-vista-vineyards-apuesta-por-peru-sembro-mas-de-200-hectareas-de-uva-en-olmos-lambayeque-noticia/",
+        "publishedAt": "2026-11-07T20:16:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/KSEJHSNF6ZF45OSP2WZWHLRK7Y.jpg?auth=8027e19d2d37900cde94bd9222979da35971e4baed58b55978913302d20afbb9&smart=true&width=1200&height=800",
+        "language": "es"
+      },
+      {
+        "id": "f9c990b11c66dc49",
+        "title": "Empresas: ¿qué fallas en su modelo de prevención pueden exponerlas penalmente?",
+        "summary": "Implementar un modelo de prevención de delitos no garantiza, por sí solo, que una empresa esté protegida frente a una eventual responsabilidad penal. La diferencia está en cómo se identifican los riesgos, qué controles se aplican y si estos funcionan realmente dentro de la organización. Un sistema que existe únicamente en documentos puede resultar insuficie…",
+        "source": "Gestión",
+        "url": "https://gestion.pe/economia/empresas/empresas-que-fallas-en-su-modelo-de-prevencion-pueden-exponerlas-penalmente-noticia/",
+        "publishedAt": "2026-11-07T19:54:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/XXP24SZPFZGMBLDFFJ2FSGUV2I.png?auth=84ac8d0eddfd3c076e40927d1240a2b77994d36457f035e7c84060fba43f639c&smart=true&width=1200&height=800",
+        "language": "es"
+      },
+      {
+        "id": "eed93a635a742c4e",
+        "title": "UPC adquiere UCAL por US$ 35 millones y ampliará su capacidad en Lima",
+        "summary": "UPC adquirió UCAL por US$ 35 millones. El campus tiene capacidad para 5,000 estudiantes y se integrará en febrero de 2027.",
+        "source": "Gestión",
+        "url": "https://gestion.pe/economia/empresas/upc-adquiere-ucal-por-us35-millones-y-ampliara-su-capacidad-en-lima-noticia/",
+        "publishedAt": "2026-11-07T19:22:54.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/OUVKUV27IZFA5MVRARR6RS55UM.png?auth=1e973dbbcdd83245807ecf3182f31203c276ef5452d3da3fe1fe7515cd268434&smart=true&width=1200&height=630",
+        "language": "es"
+      },
+      {
+        "id": "76a0022606a6c412",
+        "title": "¿Empresas en Perú empezarían a trasladar alza de combustibles a sus precios de venta?",
+        "summary": "Al 85% de las compañías encuestadas les ha afectado el incremento del precio de los combustibles en sus costos en alguna medida, revela el BCRP.",
+        "source": "Gestión",
+        "url": "https://gestion.pe/economia/glp-gasolina-y-otros-en-peru-empresas-empezarian-a-trasladar-alza-de-combustibles-al-precio-de-venta-noticia/",
+        "publishedAt": "2026-11-07T18:13:19.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/JKB5URGMQJCHZAJQR44MDSOK2Y.jpg?auth=dec9f1751da4211e290ae6af05553ebb64e9c793fc8079f504e5d55c305772a1&smart=true&width=1200&height=800",
+        "language": "es"
+      }
+    ],
+    "science": [
+      {
+        "id": "85989f458aca50fb",
+        "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+        "summary": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry…",
+        "source": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+        "publishedAt": "2026-11-07T22:47:03.000Z",
+        "language": "en"
+      },
+      {
+        "id": "607b8fa0f3883637",
+        "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+        "summary": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds the Moon Base, and lays the groundwork for the first crewed missions to Mars. The next generation […]",
+        "source": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+        "publishedAt": "2026-11-07T18:11:57.000Z",
+        "language": "en"
+      },
+      {
+        "id": "5a8e1a551ccc0e9e",
+        "title": "Human bodies produce 2 billion metric tons of CO2 a year just by staying alive",
+        "summary": "Humans collectively produce more than 2 billion tonnes of carbon dioxide annually just by turning food into energy, a 74% increase over three decades largely driven by population growth. Unlike fossil fuel emissions, however, the CO2 we exhale is part of the natural carbon cycle, and scientists say measuring it more accurately could improve climate models.",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261104012305.htm",
+        "publishedAt": "2026-11-07T10:00:03.000Z",
+        "language": "en"
+      },
+      {
+        "id": "a0c91428cdffdaa6",
+        "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
+        "summary": "Scientists have uncovered evidence that Europe was dominated for more than 20 million years by open woodlands, colorful meadows, and large grazing animals, not the dense forests long considered its natural state. The surprising discovery challenges modern reforestation strategies, suggesting that planting thick forests could actually harm the biodiversity c…",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+        "publishedAt": "2026-11-07T09:44:48.000Z",
+        "language": "en"
+      },
+      {
+        "id": "148691ae51c00f85",
+        "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+        "summary": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif […",
+        "source": "NASA",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+        "publishedAt": "2026-11-07T05:05:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "b78f4be4102b45ee",
+        "title": "M30’s Sparkling Stars",
+        "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
+        "source": "NASA",
+        "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+        "publishedAt": "2026-11-06T16:23:41.000Z",
+        "language": "en"
+      },
+      {
+        "id": "07095fb7cb7ad2b8",
+        "title": "Supercomputing Tech Demo Schedule",
+        "summary": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe Templates in Fortran 2028Tom Clune11:00 AM Type-safe Templates in Fortran 2028Tom Clune1:00PM Mixing and Matching and Multiple Versions, O…",
+        "source": "NASA",
+        "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
+        "publishedAt": "2026-11-06T16:03:52.000Z",
+        "language": "en"
+      },
+      {
+        "id": "f77f0c8b5d8597fe",
+        "title": "Scientists just found dinosaur blood that survived 115 million years",
+        "summary": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can survive. The extraordinary preservation could unlock new clues about dinosaur physiology and even help scientists search for ancient life elsewhere in the universe.",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+        "publishedAt": "2026-11-06T11:28:01.000Z",
+        "language": "en"
+      },
+      {
+        "id": "ded195b67df856f2",
+        "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
+        "summary": "November's night sky is packed with celestial wonders, from bright meteor fireballs and a close pairing of Mars and Jupiter to a spectacular supermoon. Meanwhile, NASA's Voyager 1 is making history by becoming the first spacecraft to reach a distance of one light-day from Earth.",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
+        "publishedAt": "2026-11-06T08:21:08.000Z",
+        "language": "en"
+      },
+      {
+        "id": "0166da27463e862f",
+        "title": "NASA’s Swift telescope falls to Earth after nearly 22 years in space",
+        "summary": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia. Originally designed to last just two years, the pioneering space telescope transformed our understanding of black holes, exploding stars, and mysterious cosmic outbursts.",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105224545.htm",
+        "publishedAt": "2026-11-06T07:12:55.000Z",
+        "language": "en"
+      },
+      {
+        "id": "6422bdd6cccc8d7b",
+        "title": "APOD: 2026 November 6 – A Farewell to Swift",
+        "summary": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Farewell […]",
+        "source": "NASA",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+        "publishedAt": "2026-11-06T05:05:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "7c2f3fe0fed340d1",
+        "title": "Taking a Gander at Utah’s Goosenecks",
+        "summary": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
+        "source": "NASA",
+        "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
+        "publishedAt": "2026-11-06T05:01:00.000Z",
+        "language": "en"
+      }
+    ],
+    "civil": [
+      {
+        "id": "2392b3419fdb2d93",
+        "title": "Spotlight your community’s critical infrastructure with ASCE’s new Built to Shine campaign",
+        "summary": "The Built to Shine: Illuminating Iconic Infrastructure campaign will light up iconic structures around the world in ASCE blue on Nov. 5, 2027.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2026/11/03/spotlight-your-communitys-critical-infrastructure-with-asces-new-built-to-shine-campaign",
+        "publishedAt": "2026-11-03T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2026/11-november/spotlight-your-communitys-critical-infrastructure-with-asces-new-built-to-shine-campaign/built-to-shine-web-feat.jpg"
+      },
+      {
+        "id": "c3fd73cc21234fde",
+        "title": "To meet PFAS rules, Florida county will upgrade 2 water treatment plants in tandem",
+        "summary": "Broward County’s new advanced nanofiltration treatment systems are designed to meet new PFAS rules and will cost roughly $456 million.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2026/10/28/to-meet-pfas-rules-florida-county-will-upgrade-2-water-treatment-plants-in-tandem",
+        "publishedAt": "2026-10-28T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2026/10-october/to-meet-pfas-rules-florida-county-will-upgrade-2-water-treatment-plants-in-tandem/broward-wtp-rendering-of-upgrades-at-water-treatment-plant-2a-in-pompano-beach-featured.jpg"
+      },
+      {
+        "id": "d6d3a0044b4f6219",
+        "title": "Transit agencies are testing AI’s potential, report finds, with broader adoption likely",
+        "summary": "Artificial intelligence pilot projects are becoming more common at transit agencies, setting the stage for wider adoption.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2026/10/21/transit-agencies-are-testing-ais-potential-report-finds-with-broader-adoption-likely",
+        "publishedAt": "2026-10-21T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2026/10-october/transit-agencies-are-testing-ais-potential-report-finds-with-broader-adoption-likely/ai-transit-pikestreetbuslaneindowntownseattle2019-featured.jpg"
+      },
+      {
+        "id": "08ca19a164056fc8",
+        "title": "ASCE's AI RACE positions civil engineers to embrace responsible AI integration",
+        "summary": "ASCE's AI Roadmap for Application in Civil Engineering provides civil engineers with a framework for responsible AI integration.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2026/10/19/asces-ai-race-positions-civil-engineers-to-embrace-responsible-ai-integration",
+        "publishedAt": "2026-10-19T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2025/06-june/what-is-ais-place-in-civil-engineering/data-center-web-horiz.jpg"
+      },
+      {
+        "id": "b4ad23e2ea357170",
+        "title": "Civil engineering salaries continue to rise as industry evolves",
+        "summary": "Civil engineering salaries rose in 2026, according to ASCE's 2026 Salary Report.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2026/10/08/civil-engineering-salaries-continue-to-rise-as-industry-evolves",
+        "publishedAt": "2026-10-08T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2026/10-october/civil-engineering-salaries-continue-to-rise-as-industry-evolves/money-salary-report-web-horiz.jpg"
+      },
+      {
+        "id": "7c60d2160839d0bb",
+        "title": "New AI drought forecasting tool gives water managers a 3-month outlook",
+        "summary": "River DroughtCast, a new U.S. Geological Survey tool, uses artificial intelligence to forecast drought conditions across the contiguous U.S.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2026/10/06/new-ai-drought-forecasting-tool-gives-water-managers-a-3-month-outlook",
+        "publishedAt": "2026-10-06T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2026/10-october/new-ai-drought-forecasting-tool-gives-water-managers-a-3-month-outlook/usgs-tool-usgc_gage-house-featured.jpg"
+      },
+      {
+        "id": "2bb31a5bc163bf35",
+        "title": "Sustained infrastructure investment is crucial, engineers and legislators say",
+        "summary": "The funding wave that began in 2021 helped bolster safety in U.S. infrastructure and boosted the grade on the infrastructure report card. We can’t stop now.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/04/28/sustained-infrastructure-investment-is-crucial-engineers-and-legislators-say",
+        "publishedAt": "2025-04-28T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2025/04-april/sustained-infrastructure-investment-is-crucial-engineers-and-legislators-say/april25-pb-swhitepicforpb-featured.jpg"
+      },
+      {
+        "id": "5ceaf29d71e9daf8",
+        "title": "Wired up: Broadband makes splash in infrastructure report card debut",
+        "summary": "Broadband’s inclusion reflects its importance. And it checked in with a C+, better than the overall report card grade and the best ever for an added sector.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/04/23/wired-up-broadband-makes-splash-in-infrastructure-report-card-debut",
+        "publishedAt": "2025-04-23T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2025/04-april/wired-up-broadband-makes-splash-in-infrastructure-report-card-debut/broadband-rc-jason-richard---wired-fiber-broadband-tower-featured.jpg"
+      },
+      {
+        "id": "d2144d48a5502d77",
+        "title": "2025 Report Card emphasizes need for sustained investment",
+        "summary": "The 2025 Report Card for America’s Infrastructure gave the U.S. an overall grade of C, the highest grade ever awarded.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/04/10/2025-report-card-emphasizes-need-for-sustained-investment",
+        "publishedAt": "2025-04-10T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/recurring-images/working-for-you-logo.jpg"
+      },
+      {
+        "id": "f7b5480e0c43a90f",
+        "title": "Infrastructure report card numbers are telling; what do they say about your sector?",
+        "summary": "It’s the best-ever overall grade, but that C barely scratches the surface, with the underlying numbers showing there is much work to do.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/04/09/infrastructure-report-card-numbers-are-telling-what-do-they-say-about-your-sector",
+        "publishedAt": "2025-04-09T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2025/04-april/infrastructure-report-card-numbers-are-telling-what-do-they-say-about-your-sector/report-card-numbers-rclogoforsource-resized.jpg"
+      },
+      {
+        "id": "e999dbb306cdaf1e",
+        "title": "Empowering energy infrastructure for tomorrow",
+        "summary": "In this ASCE Interchange Live, Michael Miller, vice president of engineering services at Exo, discusses how civil engineers can raise the grade for America’s energy infrastructure based on the findings in the 2025 report card.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/04/09/empowering-energy-infrastructure-for-tomorrow",
+        "publishedAt": "2025-04-09T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2025/empowering-energy-infrastructure-for-tomorrow/irc-energy-feat-image.png"
+      },
+      {
+        "id": "396d5b8a30d7701b",
+        "title": "5 key takeaways from the ‘2025 Report Card for America’s Infrastructure’",
+        "summary": "The all-time best C cumulative grade is a good indicator that the $1.2 trillion investment in the nation’s infrastructure has already made a positive difference.",
+        "source": "ASCE Civil Engineering Source",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/03/27/5-key-takeaways-from-the-2025-report-card-for-americas-infrastructure",
+        "publishedAt": "2025-03-27T12:00:00.000Z",
+        "language": "en",
+        "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2025/03-march/5-key-takeaways-from-the-2025-report-card-for-americas-infrastructure/report-card-cover-web-feat.jpg"
+      }
+    ],
+    "nobel": [
+      {
+        "id": "f45a21277dd88145",
+        "title": "Chemistry 2025: Susumu Kitagawa, Richard Robson, Omar M. Yaghi",
+        "summary": "for the development of metal–organic frameworks for the development of metal–organic frameworks for the development of metal–organic frameworks",
+        "source": "NobelPrize.org",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2025/summary/",
+        "publishedAt": "2025-10-01T12:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "bc12aa4426277729",
+        "title": "Economic Sciences 2025: Joel Mokyr, Philippe Aghion, Peter Howitt",
+        "summary": "for having identified the prerequisites for sustained growth through technological progress for the theory of sustained growth through creative destruction for the theory of sustained growth through creative destruction",
+        "source": "NobelPrize.org",
+        "url": "https://www.nobelprize.org/prizes/economic-sciences/2025/summary/",
+        "publishedAt": "2025-10-01T12:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "9b415eec4befbcae",
+        "title": "Literature 2025: László Krasznahorkai",
+        "summary": "for his compelling and visionary oeuvre that, in the midst of apocalyptic terror, reaffirms the power of art",
+        "source": "NobelPrize.org",
+        "url": "https://www.nobelprize.org/prizes/literature/2025/summary/",
+        "publishedAt": "2025-10-01T12:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "e3d6c091ea57e0b0",
+        "title": "Peace 2025: Maria Corina Machado",
+        "summary": "for her tireless work promoting democratic rights for the people of Venezuela and for her struggle to achieve a just and peaceful transition from dictatorship to democracy",
+        "source": "NobelPrize.org",
+        "url": "https://www.nobelprize.org/prizes/peace/2025/summary/",
+        "publishedAt": "2025-10-01T12:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "854a787a37e3dda4",
+        "title": "Physics 2025: John Clarke, Michel H. Devoret, John M. Martinis",
+        "summary": "for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit",
+        "source": "NobelPrize.org",
+        "url": "https://www.nobelprize.org/prizes/physics/2025/summary/",
+        "publishedAt": "2025-10-01T12:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "56c9b66acaa5407b",
+        "title": "Physiology or Medicine 2025: Mary E. Brunkow, Fred Ramsdell, Shimon Sakaguchi",
+        "summary": "for their discoveries concerning peripheral immune tolerance for their discoveries concerning peripheral immune tolerance for their discoveries concerning peripheral immune tolerance",
+        "source": "NobelPrize.org",
+        "url": "https://www.nobelprize.org/prizes/medicine/2025/summary/",
+        "publishedAt": "2025-10-01T12:00:00.000Z",
+        "language": "en"
+      }
+    ],
+    "ai": [
+      {
+        "id": "0f384ef05d095759",
+        "title": "v2.1.319",
+        "summary": "<h2>What's changed</h2> <ul> <li>Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in classifier; set <code>CLAUDE_CODE_AUTO_MODE_SERVER=0</code> to keep using it (Bedrock, Vertex and Foundry are unchanged)</li> <li>Changed auto mode beh…",
+        "source": "Claude Code · GitHub",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+        "publishedAt": "2026-11-06T17:04:01.000Z",
+        "imageUrl": "https://avatars.githubusercontent.com/u/76263028?s=60&v=4",
+        "language": "en"
+      },
+      {
+        "id": "44627f2b4641ab3f",
+        "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+        "summary": "",
+        "source": "Hugging Face",
+        "url": "https://huggingface.co/blog/allenai/toyblocks",
+        "publishedAt": "2026-11-06T14:00:48.000Z",
+        "language": "en"
+      },
+      {
+        "id": "900ca12b2d761603",
+        "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+        "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/partnering-with-hacktron",
+        "publishedAt": "2026-11-06T08:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "fe245cb738b14522",
+        "title": "0.167.0",
+        "summary": "<h2>New Features</h2> <ul> <li>Open the agent command center with <code>codex agents --no-daemon</code>. The command center and session picker now mark unread results (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6112968934\" data-permission-text=\"Title is private\" data-url=\"https://github.com/openai/codex/issues/58238\"…",
+        "source": "Codex · GitHub",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+        "publishedAt": "2026-11-06T01:42:19.000Z",
+        "imageUrl": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+        "language": "en"
+      },
+      {
+        "id": "f86c77a5e3ed93b9",
+        "title": "Measuring how AI agents handle everyday wet-lab science",
+        "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "publishedAt": "2026-11-06T00:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "9cacfab547fee599",
+        "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+        "summary": "",
+        "source": "Hugging Face",
+        "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+        "publishedAt": "2026-11-06T00:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "87a063b5ab08a96c",
+        "title": "Cult.fit builds operational muscle with Codex",
+        "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/cultfit-builds-with-codex",
+        "publishedAt": "2026-11-05T20:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "f4b5873468e92fa4",
+        "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+        "summary": "",
+        "source": "Hugging Face",
+        "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+        "publishedAt": "2026-11-05T19:35:16.000Z",
+        "language": "en"
+      },
+      {
+        "id": "5ca7cca6853cbe45",
+        "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "summary": "",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+        "publishedAt": "2026-11-05T17:05:16.000Z",
+        "language": "en"
+      },
+      {
+        "id": "1be8eb45a492e18b",
+        "title": "Australian universities are creating AI-native graduates",
+        "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+        "publishedAt": "2026-11-05T17:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "b01f2a00e872bbe4",
+        "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+        "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber",
+        "publishedAt": "2026-11-05T09:00:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "78eb5f7d499a3e71",
+        "title": "Merge builds product and business tools with OpenAI technology",
+        "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+        "source": "OpenAI",
+        "url": "https://openai.com/index/merge-builds-with-openai",
+        "publishedAt": "2026-11-05T08:00:00.000Z",
+        "language": "en"
+      }
+    ],
+    "spreadsheets": [
+      {
+        "id": "933088cb547cbf59",
+        "title": "What's New in Excel (October 2026)",
+        "summary": "<P><SPAN data-teams=\"true\">Welcome to the October 2026 update.&nbsp;</SPAN>This month, Excel for Windows and Excel for Mac lets you name tables as you create them. Copilot in Excel adds five capabilities, from bringing in and cleaning data to saving repeatable workflows and sharing the results.<SPAN data-teams=\"true\">&nbsp;</SPAN>For a deeper look at these…",
+        "source": "Microsoft Excel Blog",
+        "url": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-october-2026/ba-p/4549758",
+        "publishedAt": "2026-10-29T20:30:57.000Z",
+        "language": "en"
+      },
+      {
+        "id": "f64123bcb431cabe",
+        "title": "Apply compact form layout for pivot tables in Google Sheets",
+        "summary": "<p>Google Sheets now supports compact form layout for pivot tables, which keeps multi-level pivot tables readable while reducing excessive horizontal scrolling. You can choose a layout directly from the pivot table editor:</p><p></p><ul style=\"text-align: left;\"><li><b>Outline form: </b>each row field is displayed in its own column</li><li><b>Compact form:<…",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/5920048932484556623/comments/default",
+        "publishedAt": "2026-10-28T17:20:53.038Z",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYyzm5kDCdmNCtUrhuvRS-Lss_dunHKmwDAvl9rf8QSRhVKgxAhf8je90Bwguxxk6yQ8GJbWBGEwSV3BaB0mAC2S53hqaYksduLxzaaYaOv4Mp51wJxc_CHSMUQSsZC8Qj9YTpnVPrQU08b_ZhAEdFVu629ufF6qGWRhr3EtTpoMGQekyjBDesANcix_s/s72-c/Apply%20compact%20form%20layout%20for%20pivot%20tables%20in%20Google%20Sheets%20-%206842.gif",
+        "language": "en"
+      },
+      {
+        "id": "3555b22468dc2ec4",
+        "title": "Fill with Gemini now provides cell-level citations for web sources and supports larger requests",
+        "summary": "<p>We are making it easier to verify your AI-generated data and scale your workflows in Google Sheets. When you use the AI function to generate cell values, Gemini will now provide the exact web sources referenced directly within each individual cell. This cell-level source attribution gives you full visibility to audit, verify, and cross-reference outputs…",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/3858645513632418783/comments/default",
+        "publishedAt": "2026-10-28T16:35:13.276Z",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhty4DdmOHbVsAXdUTWl8Bu5-L9YN5VQxVyhqZSufHTlM1NVkXJ9-zhvftGqivN7upLfk-q-OGae81fNmVAEbby7gyPEeTk0otHAgYIxJhFe7Q39jLDJF7CWNxhyOn9R_jFPpBE8jJFWcjJfyEX1tHUTH1ruRnwRwu-u6RDxGqHmuD-hjFHBTFgddcJhxo/s72-c/Fill%20with%20Gemini%20now%20provides%20cell-level%20citations%20for%20web%20sources%20and%20supports%20larger%20requests%20-%206903-7043.gif",
+        "language": "en"
+      },
+      {
+        "id": "38ca096e5932771a",
+        "title": "Create box and whisker charts in Google Sheets",
+        "summary": "<p>Google Sheets now natively supports box and whisker charts, a statistical chart type that shows how a dataset is distributed. Select a range of raw numeric values and Sheets calculates the minimum, first quartile, median, third quartile, maximum, mean, and outliers for you, with no helper formulas needed. You can choose inclusive or exclusive quartile ca…",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/3048458309043789258/comments/default",
+        "publishedAt": "2026-10-22T15:06:16.748Z",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirJfIHjmtT5RL03OB1DewSHO5nnVEky_Di6vBlUvt0-GMca2ilMyPj4Fc54oQbnBzYPbuPylkKzFb2BbnqZrNOG8SGpALcjnpMBNpftdvLQ2G97NMzO2lvAN0Vk1mV4vPncCRyuoiWNj76ucT2y9Ku79Hp_dfrVSozV4XOUgyXTSI1yGi6MgmACeolNTg/s72-c/Create%20box%20and%20whisker%20charts%20in%20Google%20Sheets%20-%206843.png",
+        "language": "en"
+      },
+      {
+        "id": "de8d6dc5426c8b00",
+        "title": "Analyze BigQuery data using natural language with Gemini in Google Sheets",
+        "summary": "<p>We’re introducing a new way to analyze BigQuery data in Google Sheets. After connecting to BigQuery data with Connected Sheets, you can use Gemini to interact and analyze that data conversationally, right in Google Sheets. Gemini queries run against the full dataset in BigQuery, not just what’s visible in your spreadsheet. This means users can now ask qu…",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/1644933223984542479/comments/default",
+        "publishedAt": "2026-10-19T20:19:13.824Z",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3wo9WzGuBuTA7rAVnPUsHUaFMWLs8FP4WQMNOJhj4a0NO-QpDNc-VwRRnUdgj4__07D4Ng3iKo4SJdoDdpKxg-500Q7amqaXJ376hU2KMLST8q-mtMbTJaD5ZgIGkHtLsM3EtXCnrXIcjD1GBA5rOry9TdgQcJjBDqq9jBASVVJRgCurUL0SVjX6Z788/s72-c/Analyze%20BigQuery%20data%20using%20natural%20language%20with%20Gemini%20in%20Google%20Sheets%20-%207120%20-%201.gif",
+        "language": "en"
+      },
+      {
+        "id": "684627e4dc93c540",
+        "title": "Gemini in Google Sheets is now available on iOS devices",
+        "summary": "<p>Building upon the power of <a href=\"https://support.google.com/docs/answer/14218565?hl=en\" target=\"_blank\">Gemini in Sheets on the web</a> and our recent launch on <a href=\"https://workspaceupdates.googleblog.com/2026/08/gemini-in-google-sheets-is-now-available-on-Android-devices.html#\" target=\"_blank\">Android devices</a>, we’re excited to announce that…",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/6514398393736384170/comments/default",
+        "publishedAt": "2026-10-19T17:00:39.796Z",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYW07dDv3tzkMg3AktUV9VmyloYEf8pN-yYyn2wrUGPbEqoElkWUrixEx-qTJT7uDRIHb2unguRYYVTptCMEjO-XG_6RYMWty1DszxGMFIaQYBQIp3NmcltDBGW54zWjXW0FaOnu7YX9jCZjj5OykBLh9d3dMaVyVly-5lKvJvjvcI6XHRAJ7dE1GMEiU/s72-w311-h640-c/Gemini%20in%20Google%20Sheets%20is%20now%20available%20on%20iOS%20devices%20-%206780%20-%201.png",
+        "language": "en"
+      },
+      {
+        "id": "625afc1e80f6f3dd",
+        "title": "Beyond Analysis: Copilot Gets to Work in Excel",
+        "summary": "<P>Excel has always been where work gets done.</P> <P>The best outcomes in Excel rarely come from a single analysis. They come from bringing in the right data, preparing it with confidence, applying the processes you trust, and turning the result into something others can understand and act on.</P> <P>Now, Copilot can help take on more of that work for you.…",
+        "source": "Microsoft Excel Blog",
+        "url": "https://techcommunity.microsoft.com/t5/excel-blog/beyond-analysis-copilot-gets-to-work-in-excel/ba-p/4517581",
+        "publishedAt": "2026-10-16T16:25:51.000Z",
+        "language": "en"
+      },
+      {
+        "id": "905d6623166c56d0",
+        "title": "Use stock charts in Sheets to better visualize price movements",
+        "summary": "<p>Google Sheets now supports new types of stock charts, making it easier to visualize price movement over time. Stock charts condense several price points for each time period into a single marker, so you can read a security's full trading range at a glance rather than interpreting separate line series. Users can create and customize the following stock ch…",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/8115150686338480960/comments/default",
+        "publishedAt": "2026-10-05T20:42:28.567Z",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipDpqMdaPaDfJNXP5y0HwbiG-ETOy7viLoauILr3m-y2tFFbjeyGFjMoNIr4nlY49xPOLlrq2OuKLuPWue7JvilGYl8S7Go2OrDTXCErbsGo2MZbQoTk-GhIrZ8POm8Pi9Q_IW2vchLgY18XcNby0KcXI_JleG2GHhU0TFdV407ulsaWm5qTZDduV7uM0/s72-c/Use%20stock%20charts%20in%20Sheets%20to%20better%20visualize%20price%20movements%20-%206843.png",
+        "language": "en"
+      },
+      {
+        "id": "ff5a198be02ac6d9",
+        "title": "Programmatic comment and suggestion support now available in the Google Docs, Sheets, and Slides APIs",
+        "summary": "<p>Developers can now programmatically create, read, and manage comments across Google Docs, Sheets, and Slides using their respective developer APIs. In Google Docs, this update also introduces API support for suggested edits, allowing automated tools and third-party systems to propose document revisions for user review rather than altering content directl…",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/5432316084334920607/comments/default",
+        "publishedAt": "2026-09-30T21:26:19.996Z",
+        "language": "en"
+      },
+      {
+        "id": "86e970e7625b9dce",
+        "title": "What's New in Excel (September 2026)",
+        "summary": "<P>Welcome to the September 2026 update and happy 41st birthday Excel! 🎂</P> <P>New this month to Insiders of Excel for Windows and Insiders of Excel for Mac, lists, arrays in cells, and nested arrays, the ability to name a table at creation, and center across selection is now available in the merge cell menu.</P> <P><SPAN data-contrast=\"auto\">Also new thi…",
+        "source": "Microsoft Excel Blog",
+        "url": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-september-2026/ba-p/4549755",
+        "publishedAt": "2026-09-29T16:18:35.000Z",
+        "language": "en"
+      },
+      {
+        "id": "728f9725556aebdf",
+        "title": "Excel now supports multiple values in a single cell",
+        "summary": "<P>Project trackers, surveys, inventory lists, and customer databases often contain related information that belongs together: multiple owners, tags, locations, or responses.</P> <P>For years, organizing that information in Excel meant spreading it across additional rows and columns or combining everything into text that was difficult to work with.</P> <P>A…",
+        "source": "Microsoft Excel Blog",
+        "url": "https://techcommunity.microsoft.com/t5/excel-blog/excel-now-supports-multiple-values-in-a-single-cell/ba-p/4549756",
+        "publishedAt": "2026-09-24T16:19:51.000Z",
+        "language": "en"
+      },
+      {
+        "id": "ca97ce1f099e4875",
+        "title": "Manually reorder and custom sort pivot tables in Google Sheets",
+        "summary": "<p>Google Sheets now supports custom sorting and manual reordering in pivot tables. Users can now drag and drop rows and columns on a pivot table to match specific presentation needs and custom business hierarchies, rather than being restricted to standard ascending or descending alphanumeric order. This launch includes the following capabilities:</p><p></p…",
+        "source": "Google Workspace Updates",
+        "url": "https://workspaceupdates.googleblog.com/feeds/8454632963036621364/comments/default",
+        "publishedAt": "2026-09-22T15:58:11.802Z",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSerr5Y380nyaHGWMp2xiCn1lIcT0utb_YASWXX1MLyMHttjH911m7BJGMzHoSYwgXrWmK34HPJynHOfHEfvvQDs7kXSZQmpqGzv54rvdbiOFbO2FS8PyLGa5DDEqR5BgRhUVtwEpnre6tMTX_9Lec1e_fnAbfmvoJWif2NvF0-uGORoFzvNSA6UdQf4U/s72-c/Manually%20reorder%20and%20custom%20sort%20pivot%20tables%20in%20Google%20Sheets%20-%206842.gif",
+        "language": "en"
+      }
+    ],
+    "blog_sc": [
+      {
+        "id": "blog-sc-1355",
+        "title": "Bienvenida calurosa",
+        "summary": "Hola amixer que seguramente estabas buscando un sitio de citas y le diste&nbsp;a mi blog para ver si te ligaban unas teens precoces y atrazadoras. Get the fuck away pervert. Para todos los que tropezaron con el blog y están en la chamba/universidad/cualquiersitiodondedeberíasserproductivoynoloeres BIENVENIDOS! Déjenme primero aclararles que si están buscand…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/05/bienvenida-calurosa/",
+        "publishedAt": "2012-01-05T15:31:51.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1356",
+        "title": "Lección 1: Simplemente no le gustas",
+        "summary": "Sí así se llama también una pela, déjame en paz. Te gusta Perensejo (hay que darle crédito a las madres por utilizar ese nombre). Pero te gusta full, así tipo “te miro con cara de troll, me río de tus chistes malos, dejo mis opiniones cagonas de lado para no hacerte sentir menos, te digo que no [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/05/leccion-1-simplemente-no-le-gustas/",
+        "publishedAt": "2012-01-05T18:46:16.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-33",
+        "title": "Lección 2: Los hombres son como un estuche para pintar",
+        "summary": "Te acuerdas de chibola que a todos nos regalaron esa maletita llena de plumones, acuarelas, crayolas y lápices que era como el maldito paraíso para pintar? Bueno poco sabíamos que además de ser the best gift eveeeer resultaría ser una excelente metáfora de la jungla masculina. Los acuarelas: Has salido con uno de esos pelotudos [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/06/leccion-2-los-hombres-son-como-un-estuche-para-pintar/",
+        "publishedAt": "2012-01-06T20:02:21.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-36",
+        "title": "Lección #3 : Sí, estás con la regla / No, no vas a morir sola.",
+        "summary": "Ha llegado ese día del mes en el que te levantas y de la nada hay como 25795.99 cosas que te hacen sumamente infeliz; sientes la necesidad de hacer un balance de tu vida a cada 5 minutos sólo para reafirmar que estás más perdida que gringo viendo un mapa mundi. Te haces bolita en [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/07/leccion-3-si-estas-con-la-regla-no-no-vas-a-morir-sola/",
+        "publishedAt": "2012-01-07T20:04:22.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-40",
+        "title": "Lección # 4: Cómo manejar el que tu ex tenga nueva novia? / Cap.1",
+        "summary": "Soltera verdaderamente crees que voy a responder a esa pregunta? Me has visto cara de Oby-Wan Kenobi? Bueno permíteme desilusionarte y decirte que no seré el Miyagi de tu Karate kid. Lidiar con el hecho de que tu ex esté con enamorada es un asunto tan complejo que debería haber recaudación de fondos para la [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/08/leccion-4-como-manejar-el-que-tu-ex-tenga-nueva-novia-cap-1/",
+        "publishedAt": "2012-01-08T20:08:19.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-45",
+        "title": "Lección #4: Cómo manejar que tu ex tenga novia? / Cap.2",
+        "summary": "Capítulo 2: “El primer encuentro” Un sábado por la noche como cualquier otro mientras estás de juerga y compartes tus alguiencállelapofavor interesantes desvaríos reflexiones con una amiga… Estoy “súper superada” con lo de Perensejo y Fulanita, nunca nadie en la historia de los rompimientos ha manejado el tema con mayor diplomacia, garbo y madurez. [&hellip…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/11/leccion-4-como-manejar-que-tu-ex-tenga-novia-cap-2/",
+        "publishedAt": "2012-01-11T20:17:10.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-61",
+        "title": "Lección #4 Cómo manejar que tu ex tenga nueva novia? / Cap 3",
+        "summary": "Capítulo 3. La recaída es peor que la caída Te acuerdas esa vez que estabas jugando YO NUNCA (o YO SIEMPRE en varios de sus casos solteras pendejas no se hagan) y alguien dijo “Yo nunca he sido la otra” y tú no tomaste, orgullosísima de tu moral, dignidad y aplomo? Bueno si te pasó [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/13/leccion-4-como-manejar-que-tu-ex-tenga-nueva-novia-cap-3/",
+        "publishedAt": "2012-01-13T20:32:33.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-70",
+        "title": "Lección #5 Cómo encontrar al NO hombre de tus sueños?",
+        "summary": "Supongamos que estás alrededor de los 25 años, eres soltera y que empezaste a salir con chicos alrededor de los 13 ( Siii “A los 13” como la pelaaaa… manyaaaaaaaaaa… #getalife) por lo tanto llevas 12 años “en el mercado”. Si digamos que por lo menos tuviste dos intereses amorosos cada año (y eso que no [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/16/leccion-5-como-encontrar-al-no-hombre-de-tus-suenos/",
+        "publishedAt": "2012-01-16T20:38:10.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-74",
+        "title": "Lección #6 Sobreviviendo a la primera cita",
+        "summary": "RIIIIIIN RIIIIIIING (sonido clásico de teléfono fijo que ahora ha sido reemplazado por un perreo chacalonero en tu cel) “Huevón que te gusta” LLAMANDO Por los pianos de Elton John es (Insert nombre del interesado here)! … Ya, aclara la voz, espera por lo menos dos timbrados … VEN Y SANA MI DOLOOOOOOOR (8) ….. [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/18/leccion-6-sobreviviendo-a-la-primera-cita/",
+        "publishedAt": "2012-01-18T20:42:26.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-77",
+        "title": "Lección #7 : Resoluciones de año nuevo",
+        "summary": "&nbsp; Yo SOLTERA CODICIADA, habiendo recibido recientemente el nuevo año y ante la posibilidad de que los Mayas estén en lo correcto y todo se vaya al carajo en Diciembre he llegado a las siguientes resoluciones importantes para este 2012: Si quieres algo conmigo, llámame, búscame, sácame, engríeme, gáname. Cualquier otro intermedio tibio, tira y [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/20/leccion-7-resoluciones-de-ano-nuevo/",
+        "publishedAt": "2012-01-20T20:57:24.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-82",
+        "title": "Lección #8 El amor es como el fútbol",
+        "summary": "Salida a la cancha Los equipos salen a la cancha. Has logrado con éxito el look #puchanicuentamedoydelosexiquesoy. Has identificado al chico que te gusta en la discoteca. Comienza a rodar la esférica. Suenan los himnos Primero “Men I feel like a woman” (Baile disforzado con las amigas mientras los hombres se paran desconcertados). Es el [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/23/leccion-8-el-amor-es-como-el-futbol/",
+        "publishedAt": "2012-01-23T21:09:56.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-91",
+        "title": "Lección #9 : El dilema de los “bad boys”",
+        "summary": "El otro día conocí un chico en la chamba que digamos tiene el charm y la gracia de una planta muerta. No muy atractivo, bastante torpe con las mujeres, una mezcla de tímido con #don’tknowwhatthefucki’mdoing. Por supuesto, el interés que despertó en mí fue casi tan intenso como la atracción que siento hacia un cactus… [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/25/leccion-9-el-dilema-de-los-bad-boys/",
+        "publishedAt": "2012-01-25T21:11:58.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-94",
+        "title": "Lección #10: No todo lo que brilla es oro",
+        "summary": "Seguramente te ha pasado que estás caminando por la calle y se te acerca un vendedor a ofrecerte lentes. “REIVAN” SEÑORITAAA LE HAGO PRECIO. Y tu lo miras con cara de #choloplease a mi no me venden gato por liebre, esos lentes son más falsos que amigo de facebook y yo NUNCA adquiero imitaciones. OHHHHH [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/27/leccion-10-no-todo-lo-que-brilla-es-oro/",
+        "publishedAt": "2012-01-27T21:14:22.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-99",
+        "title": "Lección #11: Los verdaderos efectos secundarios del alcohol",
+        "summary": "Es Sábado y acabas de tener un momento de claridad bárbaro, una revelación casi divina sobre tu vida, una reflexión verdaderamente trascendental y cuasi existencialista sobre tus actos y has tomado una decisión importantísima. Hoy día no te chapas a nadie. Y es que tampoco eres una zorrra, sólo en dosis socialmente aceptables, pero crees [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/01/31/leccion-11-los-verdaderos-efectos-secundarios-del-alcohol/",
+        "publishedAt": "2012-01-31T21:35:53.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-116",
+        "title": "Lección #12: El día después de mañana",
+        "summary": "Domingo 13:00hrs: Auuuuuuuuuuuuuuuu mi cabezaaaaaaaaaaaaaaaaaaa Qué día es hoy??!?! Por qué me están reventando los sesos con ese ruido insoportable?!?! (tu mamá revolviendo su café dos cuartos más allá). OMG NECESITO AGUAAAAAA… Te paras, te mareas, te sientas, te quejas, te paras de nuevo, caminas erráticamente a la cocina, abres el refrigerador, y tomas u…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/02/03/leccion-12-el-dia-despues-de-manana/",
+        "publishedAt": "2012-02-03T21:48:45.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-122",
+        "title": "Lección #13 Física o Química?",
+        "summary": "Ya tranquila, casi te me desmayaste cuando leíste el título e hiciste un #megaflashback al cole cuando la profe te estaba haciendo recitar la tabla de elementos químicos y tú te reíste al llegar a “gases nobles” (nobles serán los suyos Srta…. jijijiji). En todo caso, este post nace de una conversación interesante con un [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/02/07/leccion-13-fisica-o-quimica/",
+        "publishedAt": "2012-02-07T21:52:06.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-128",
+        "title": "Lección #14: Bailamos?",
+        "summary": "Me encanta bailar. Soy de las que baila con hombres, con mujeres, sola, en grupos, en la ducha, frente al espejo, en pogos, levantando el brazo #jerseyshorestyle , en coreografías #AxeBahiaArruinasteMiAdolescencia… es más, con la apropiada cantidad de alcohol hay una alta probabilidad de que termine encima de alguna superficie elevada (llámese barra, mesa,…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/02/10/leccion-14-bailamos/",
+        "publishedAt": "2012-02-10T21:53:51.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-132",
+        "title": "Lección # 15: Día de San Valentín",
+        "summary": "COMUNICADO OFICIAL Estimados solteras y solteros, El calendario marca la llegada del 14 de febrero, día de los enamorados. Y sí solteros, dije DÍA DE LOS ENAMORADOS, porque lo del día de la amistad son puras mariconadas perdonen la expresión. Así que no se dejen mensajes atorrantes en el facebook entre amigos diciendo que se [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/02/14/leccion-15-dia-de-san-valentin/",
+        "publishedAt": "2012-02-14T22:01:14.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-139",
+        "title": "Lección #16: Llamada de emergencia",
+        "summary": "Estás caminando al altar en tu fabuloso vestido de Vera Wang. Mientras avanzas reconoces a tus amigos y amigas. “Qué guapa está Heid Klum” “Qué zorra es Paris Hilton” “Ay me alegra que haya podido venir Su Majestad” “Nos vemos en la recepción Obama” y una vez que Sara Jessica Parker te arregla el vestido [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/02/21/leccion-16-llamada-de-emergencia/",
+        "publishedAt": "2012-02-21T17:32:38.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-160",
+        "title": "Lección #17 “Adiós verano azul”",
+        "summary": "Ha llegado ese terrible, dramático, temido momento del año… el final del verano. Termina la época del calor, las sandalias, las micro faldas, las insoladas necias a pesar de que tu vieja te insistió 349 veces que te pusieras bloqueador. Se acaba la época de los vicios y el mal comportamiento justificados porque “nadie puede [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/02/28/leccion-17-adios-verano-azul/",
+        "publishedAt": "2012-02-28T17:36:00.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-169",
+        "title": "Lección #18 HueBOND y su “Licencia para matar”",
+        "summary": "Es fin de semana y sales a algún bar a ver que te trae la noche. Después de algunas rondas de inspección y bailes grupales con tus amigas encuentras, para tu sorpresa, un chico que puede hilar frases con coherencia, utiliza más de 2 pasos de baile, entiende casi el 60% de tus bromas y [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/03/06/leccion-18-huebond-y-su-licencia-para-matar/",
+        "publishedAt": "2012-03-06T20:30:54.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-211",
+        "title": "Mensajito por el Día de la Mujer",
+        "summary": "Éste día conmemora a aquellas mujeres luchadoras, partes activas de un cambio. A las mujeres que no se dejan definir por realidades injustas, que miran siempre hacia adelante. Aquellas mujeres que empiezan cada día por quererse a sí mismas y tienen cantidades inagotables de amor para dar. Mujeres fuertes, decididas, que tienen una voz. Se [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/03/08/mensajito-por-el-dia-de-la-mujer/",
+        "publishedAt": "2012-03-08T22:33:17.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-177",
+        "title": "Lección #19: Diccionario de la soltería",
+        "summary": "En su última edición la RAE (Random Agrupación de Estupideces) nos presenta el siguiente glosario de términos importantes para acompañar al Manual de la Soltera Codiciada: Madre: Personaje en tu vida que una vez pasado el primer año de soltería goza de la completa seguridad que vas a morir sola. Además de esa alentadora premisa [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/03/14/leccion-19-diccionario-de-la-solteria/",
+        "publishedAt": "2012-03-14T20:37:53.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-182",
+        "title": "Lección #20: Una piedra en el camino. . .",
+        "summary": "Estás conversando con una amiga en una fiesta. El ambiente está simpático, la música decente y el escenario se pinta favorable para una buena noche. De repente notas que tu compañera se pone un tanto incómoda y abre los ojos como si hubiera visto a Linda Blair bajar las escaleras en forma de araña. Ante [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/03/25/leccion-20-una-piedra-en-el-camino/",
+        "publishedAt": "2012-03-25T20:39:46.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-185",
+        "title": "Lección #21: Tipos de amigas",
+        "summary": "Se acuerdan cuando recién salieron las Spice Girls y todas hechas unas perdedoras nos peleábamos por quién era quién y ninguna quería ser la negra loca (#ylosabes)? En todo caso la tipología de las Spice era un poco limitada pero siempre habrá una clasificación femenina para las amigas (y las no tan amigas también) que es algo así como esto: [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/04/02/leccion-21-tipos-de-amigas/",
+        "publishedAt": "2012-04-02T20:43:09.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-188",
+        "title": "Lección #22: Uno de esos días",
+        "summary": "Hoy te levantaste con un humor de mierda. No sabes si se debe a que soñaste con tu ex, con las propagandas de Open English o el desfile de Victoria Secret pero estás como para partirle la cara en dos a alguien. No contento con esto el cosmos, que ya te tiene fichada como presa [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/04/08/leccion-22-uno-de-esos-dias/",
+        "publishedAt": "2012-04-08T20:47:36.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-194",
+        "title": "Lección #23 Cómo perder a una mujer en 10 días?",
+        "summary": "Cómo perder a un hombre en 10 días? Todas hemos visto esa película increíble, jugado bullshit, odiado a Kate Hudson en el vestido amarillo espectacular y puesto pausa cuando Matthew McConaughey salía sin polo … sin polo… qué salvaje lo bueno que está… y lo bien bronceado… Qué estaba diciendo? Ah sí, la pela. Y [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/04/18/leccion-23-como-perder-a-una-mujer-en-10-dias/",
+        "publishedAt": "2012-04-18T20:51:16.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-199",
+        "title": "Lección #24 THE FRIENDZONE",
+        "summary": "No te gusta “Pedrito”. Tan simple como eso. Y estás cansada de que te sigan molestando con el tema porque realmente te parece una acusación injusta, una blasfemia, es más. Para ti Pedrito es un chico como cualquier otro, es como un chino, sabes que está ahí pero no podrías distinguirlo entre todos los demás [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/04/22/leccion-24-the-friendzone/",
+        "publishedAt": "2012-04-22T20:53:57.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-210",
+        "title": "Leccion #25 La amiga de la novia",
+        "summary": "&nbsp; Sí, estás yendo soltera al matrimonio de una amiga y eso no te afecta en lo absoluto. Llegas a la ceremonia, empiezas a buscar sitio y un tío te señala un asiento libre “Tú que estás solita te puedes sentar ahí” DAFUK OLD MAN?! La cojudez es un efecto secundario del exceso de Viagra?! [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/05/07/leccion-25-la-amiga-de-la-novia/",
+        "publishedAt": "2012-05-07T02:53:46.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-208",
+        "title": "Lección #26: ¿Cómo olvidar a alguien?",
+        "summary": "Hace un tiempo recibí un mensaje vía Facebook de alguna seguidora que sólo contenía la siguiente pregunta “¿Cómo olvidar a alguien?”… nada más, #NiSiquieraUnPiropito. En fin, asumo que hay muchas de ustedes caminando por ahí, siendo “medias solteras” es decir, con el status libre pero el corazón ocupado, así que aquí les brindo algunos consejos [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/05/13/leccion-26-como-olvidar-a-alguien/",
+        "publishedAt": "2012-05-14T02:49:05.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-252",
+        "title": "Lección #27: Realidad vs Expectativa",
+        "summary": "En 500 days of Summer (si no has visto esa pela #QueRocheQueMeDas) hay una parte en que la imagen se divide en dos cuadros que cuentan la misma historia: en un lado lo que realmente está pasando y en el otro lo que el protagonista desearía que pasara… ni más decirles que por supuesto la [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/05/25/leccion-27-realidad-vs-expectativa/",
+        "publishedAt": "2012-05-26T03:27:46.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-245",
+        "title": "Lección #28 Traductor Mujer – Español",
+        "summary": "Mujeres: las reinas del subtexto, las expertas en decir una cosa, querer otra y andar siempre esperando que se lea entre líneas. Sí, deberíamos caminar con subtítulos, pero ya que no es posible tal vez sea útil brindarle al sexo opuesto un par de “plagios” que los ayuden en la traducción. Me veo bien? Bueno [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/06/03/leccion-28-traductor-mujer-espanol/",
+        "publishedAt": "2012-06-04T03:57:36.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-274",
+        "title": "Lección #29 El perro del hortelano",
+        "summary": "Recuerdo una vez, cuando era chiquita, que me llevaron a la casa de unos amigos de mis papás. A su hijo, un gordito engreído, osaron traerle un pedazo gigante de pie de limón por el cual mostró una clara repulsión ya que no tenía el componente básico de sus comidas: chocolate. Ante su desprecio y [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/06/10/leccion-29-el-perro-del-hortelano/",
+        "publishedAt": "2012-06-11T03:05:31.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-288",
+        "title": "Lección #30: Los milenarios",
+        "summary": "El otro día en medio de una larga conversación con un amigo, de esas en las que empiezas a relativizar hasta la mera existencia de la copa de vino que te estás tomando, solté una frase con la que me sentí casi con un pie en la morgue: “En mi época…” DAFUUUUK MAN?! O sea [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/06/20/leccion-30-los-milenarios/",
+        "publishedAt": "2012-06-21T00:30:29.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-302",
+        "title": "Lección #31: ¿Por qué no te llama?",
+        "summary": "Entre las grandes preguntas de la historia como: ¿Por qué el pollito cruzó la calle?, ¿Qué es lo que quiere esa nena? y ¿Dónde en el mundo está Carmen San Diego? Se encuentra, por supuesto, la popular y angustiante incógnita de ¿Por qué no te llama?… Sí, te hablo a ti, la que está pegada [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/07/01/leccion-31-por-que-no-te-llama/",
+        "publishedAt": "2012-07-02T02:40:54.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-326",
+        "title": "Lección #32: El post de los buenos borrachos…",
+        "summary": "El pasado sábado se celebró en todos los rincones del mundo el Día del Amigo. Ok mentí, se celebró el “Día de vamos a venderles una fecha para que consuman full nuestro producto” en todos los huecuchos chupísticos del país #YTodosCaímosFelices. Lo cierto es que esta ocasión, que unía tan magistralmente la amistad y cantidades [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/07/10/leccion-32-el-post-de-los-buenos-borrachos/",
+        "publishedAt": "2012-07-11T02:10:25.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-341",
+        "title": "Lección #33: El número que ha marcado, es incorrecto.",
+        "summary": "Siempre he odiado los domingos. La acumulación de cansancio, la angustia de que se acaban los días libres, los inevitables planes familiares, los programas políticos venenosos, la cuenta regresiva hasta el lunes, pero sobre todo, no me gustan estos días porque son peligrosos, y no me refiero a peligrosos tipo “Qué paja como hago puenting [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/07/15/leccion-33-el-numero-que-ha-marcado-es-incorrecto/",
+        "publishedAt": "2012-07-16T03:17:36.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-355",
+        "title": "Lección #34: Se busca…",
+        "summary": "Conversaba ayer con una amiga psicóloga que trabaja en la rama de “Selección de personal” sobre las peripecias por las que se tiene que pasar para conseguir una buena chamba, no muy distinto a conseguir un buen enamorado le dije, y fuera de la cantidad de rones “con personalidad” que nos habíamos tomado, empezamos a [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/07/22/leccion-34-se-busca/",
+        "publishedAt": "2012-07-23T03:22:14.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-374",
+        "title": "Lección #35: Que los cumplas feliz",
+        "summary": "Me encanta mi cumpleaños, siempre ha sido así. Soy de las que empieza la cuenta regresiva 5 meses antes, pone ridícula presión sobre sus amigos y familiares y le da más vueltas al tema que ciclista olímpico #MeMareaTuDisciplinaaaaa. Es un proceso complicado que usualmente se desarrolla de la siguiente manera: PRE-CUMPLEAÑOS Se acerca la fecha [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/08/05/leccion-35-que-los-cumplas-feliz/",
+        "publishedAt": "2012-08-06T04:03:28.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-385",
+        "title": "Lección #36: Dame un beso, ay dame un beso",
+        "summary": "Hay una parte en la película “Hitch” en la que el personaje principal hace la siguiente afirmación: “8 de cada 10 mujeres piensan que el primer beso les dice todo lo que necesitan saber sobre una relación” #WillSmithPlease, es un punto un poco exagerado, porque a no ser que sepas leer el tarot con la [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/08/12/leccion-36-dame-un-beso-ay-dame-un-beso/",
+        "publishedAt": "2012-08-13T04:04:26.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-395",
+        "title": "COMUNICADO",
+        "summary": "Damas y caballeros, respetables seguidores de este humilde #SiJuan blog, trolls que entran a quejarse, afanes que entran a ver si he escrito algo sobre ellos, amixers que piensan que este es un online dating site, bloggeros que me han visto cara de valla publicitaria, me dirijo a ustedes con una importante solicitud. Como sabrán, [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/08/13/comunicado/",
+        "publishedAt": "2012-08-13T18:05:58.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-382",
+        "title": "Lección #37 Amiga, tu novio es un idiota.",
+        "summary": "Ahí estás tú, echada en tu cama, zappeando por la insoportable programación dominguera, cuando suena el teléfono. “Insertar nombre de mejor amiga aquí” llamando – Aló? Silencio… suspiros…se suena la nariz – AlooooOOOO? – repites Y una voz que es una mezcla de Darth Vader y Eros Ramazzotti dice: – Holaaaa Está llorando. Supones además [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/08/20/leccion-37-amiga-tu-novio-es-un-idiota/",
+        "publishedAt": "2012-08-21T01:00:08.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-423",
+        "title": "Gracias totales",
+        "summary": "Es domingo y tiempo de un post. Aunque disfrute todas las semanas de una buena bitchslapeada, esta vez sólo tengo puro amor para ustedes… a pesar de que es el día del actor y tu papel en “Me quiero chifar a otra” en la que magistralmente encarnaste a un hombre confundido que “necesitaba tiempo para [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/08/26/gracias-totales/",
+        "publishedAt": "2012-08-27T03:42:36.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-436",
+        "title": "Lección #38 Las mujeres somos como las caricaturas",
+        "summary": "La Lección #2 hablaba de cómo los hombres son comparables con los diversos artículos de un estuche para pintar. Bueno, este último fin de semana analizaba lo divertidas que llegamos a ser las mujeres cuando estamos “de caza”, porque no todas tenemos la misma artillería y hay algunos estilos y personalidades que saltan a la [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/09/02/leccion-38-las-mujeres-son-como-las-caricaturas/",
+        "publishedAt": "2012-09-03T03:10:09.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-322",
+        "title": "Lección #39: La maldición de los “breaks”",
+        "summary": "Ese día en el que él se te plantó al frente y con voz ceremoniosa dijo: “Creo que deberíamos darnos un tiempo” Pasado el mini heart atack, empezaste a considerar que no era una mala idea, de hecho habían problemas en la relación y tal vez un tiempo apartados en que los dos pudieran extrañarse, [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/09/09/leccion-39-la-maldicion-de-los-breaks/",
+        "publishedAt": "2012-09-10T02:42:34.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-469",
+        "title": "Lección #40: Triángulos amorosos",
+        "summary": "Estabas en una reunión, conversando, un poco pegada mirando a Menganito. Te gusta, un montón, pero no estás muy segura de qué pasa por su cabeza. Optaste por ponerte recontra #HighSchoolModeOn y preguntarle a uno de sus amigos hacia dónde iban los intereses del susodicho. – A Menganito le gusta Pepita – te respondió uno [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/09/18/leccion-40-triangulos-amorosos/",
+        "publishedAt": "2012-09-19T02:27:05.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-516",
+        "title": "( J ) Oda a las buenas noticias",
+        "summary": "&nbsp; Cuando hay buenas noticias, mejor darlas en verso sobre todo si son tan buenas como chocolatito después de almuerzo 9 meses han pasado desde lo primero que fue escrito como un bebé no planificado pero bonito. &nbsp; 40 lecciones bajo el brazo y tanta gente identificada aunque #bitchplease todo sabemos que aún no aprendes [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/09/25/joda-a-las-buenas-noticias/",
+        "publishedAt": "2012-09-25T21:14:49.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-526",
+        "title": "Lección #41: Amores prohibidos",
+        "summary": "Cuenta la Biblia #NoPenséNuncaEmpezarUnPostAsí que después de haber creado a la mujer de una costilla #PareceQueEstabanEnElAñoDeLaAusteridad, Dios habló por los altoparlantes del paraíso y con una grave y tenebrosa voz (volvería a ser utilizada miles de años después en la introducción de “Los cuentos de la cripta: parte 2”) le advirtió a Adán y Eva [&hellip…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/09/25/leccion-41-amores-prohibidos-2/",
+        "publishedAt": "2012-09-26T01:03:56.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-537",
+        "title": "Lección #42: La ex y la actual",
+        "summary": "Este fin de semana, hablando con un par amigas, me insistieron en que debía escribir sobre las tremendas cabronas famosas “ex”. Y no es difícil despotricar contra este personaje, pero pensándolo bien por todas las ganas que tienes de matarla, es realista decir que así como eres la amargada nueva novia, también has sido alguna vez “la ex” de [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/09/30/leccion-42-la-ex-y-la-actual/",
+        "publishedAt": "2012-10-01T03:39:57.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-568",
+        "title": "Lección #43: ¿Todos los hombres son iguales?",
+        "summary": "Una vez más, las cosas no funcionaron entre él y tú. Entiéndase por “él” al elegido esta vez del mismo saco de donde usualmente te provees de los buenos para nada con los que te gusta enamorar. Pasas entonces a colocar mentalmente su nombre entre tus demás frustraciones amorosas y de manera estoica #EstoicagandoFueraDelWater anuncias #PublicasComoStatus #Tw…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/10/07/leccion-43-todos-los-hombres-son-iguales/",
+        "publishedAt": "2012-10-08T03:10:38.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-592",
+        "title": "Lección #44: ¿Segunda oportunidad? ¿Tercera es la vencida?",
+        "summary": "La vida sería más fácil si las relaciones vinieran con fecha de expiración, de esa manera tendríamos todos un límite claro de oportunidades que podríamos darle a algo sin que empiece a ser perjudicial para nuestra salud mental. Pero no es así, es decir, este límite existe pero no estamos seguros cuál es dado que [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/10/15/leccion-44-segunda-oportunidad-tercera-es-la-vencida/",
+        "publishedAt": "2012-10-16T02:08:05.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-599",
+        "title": "Lección #45: Let’s talk about sex",
+        "summary": "Si hay dos cosas de las que los hombres pueden hablar hasta el cansancio es de carros y de sexo. Bueno, usando esto de inspiración, hablaremos un poco de las formas en las que las mujeres manejamos nuestra sexualidad #ParezcoProgramaDeLaRampolla usando algunas metáforas automovilísticas. Y no troll, no estoy objetivizando a la mujer #OverSensitiveFeminista…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/10/21/leccion-45-lets-talk-about-sex/",
+        "publishedAt": "2012-10-22T04:07:01.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-611",
+        "title": "Lección #46: Química pura",
+        "summary": "Todas conocemos el amor de una u otra manera, ese maravilloso sentimiento que te pone en las nubes, que hace todo más lindo y colorido, que te llena de paz y alegría el alma… Ya bueno, eso no es lo que tienes con él. Lo que tienes es una química de la reconshasumare #PerdonandoElFrancés. Porque tú [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/10/28/leccion-46-quimica-pura/",
+        "publishedAt": "2012-10-29T02:53:17.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-619",
+        "title": "Lección #47: ¿Dulce o truco?",
+        "summary": "Me encanta Halloween, por alguna razón #PorqueEsElDíaDeLasBRUJAS #PendejoPlease. Cosas divertidas e inesperadas siempre me han pasado en esta fecha. Mi primer beso, por ejemplo, fue en una fiesta un 31 de Octubre #YTuvoSuCuotaDeTerrorSinDuda. Pero la mejor anécdota sigue siendo una que me ocurrió hace dos años. Iba disfrazada de Gatúbela #TanOriginalComoLaP…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/11/04/leccion-47-dulce-o-truco/",
+        "publishedAt": "2012-11-05T03:58:40.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-637",
+        "title": "Lección #48: ¿Agregar a contactos o denunciar como spam?",
+        "summary": "Este chico realmente te trae un poco loca. Conversan horas, se llevan increíble y tienen esa fluidez que es tan difícil de conseguir. El problema, el ligero, pequeño, casi insignificante detalle… es que no lo conoces. Sí, tu has decidido una vez mas jugar a la ruleta rusa con tu vida amorosa #ComoTeGustaLaSufridera. Lo conociste [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/11/11/leccion-48-agregar-a-contactos-o-denunciar-como-spam/",
+        "publishedAt": "2012-11-12T04:23:08.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-643",
+        "title": "Bitácora – Concierto de Lady Gaga",
+        "summary": "Día 1: La noticia Estaba hueveando en el Facebook trabajando arduamente cuando se abrió una ventanita en la parte inferior de mi pantalla y no, no era Avast y la española con voz de actriz porno #EsoMeHanDicho anunciándome que la base de datos de virus había sido actualizada #YaPeroNoMeGrites, era una notificación de que tenía [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/11/16/bitacora-concierto-de-lady-gaga/",
+        "publishedAt": "2012-11-16T16:09:17.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-656",
+        "title": "Lección #49: El masoquismo femenino",
+        "summary": "Caminas por la discoteca, haciendo muecas de dolor con cada paso, “me están matando estos zapatos” le dices a tu acompañante, señalando al par de tacos 11 que llevas puestos. Él, con tono resignado, te lanza un: “Cómo les encanta sufrir a las mujeres” y tú te picas un poco. O sea, a nadie le [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/11/18/leccion-49-el-masoquismo-femenino/",
+        "publishedAt": "2012-11-19T02:49:59.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-672",
+        "title": "10 advertencias para el fin de semana",
+        "summary": "Ante el preocupante aumento de cojudeces realizadas los fines de semana, entre ellos el nacimiento de los AMIXTERS (amixers hipsters) #SeTomanFotoEnElBañoYLaRetocanEnInstagram, el Ministerio de la Juerga (Instaurado desde el triunfo en el concurso de blogs) se ve obligado a hacerles 10 advertencias importantes antes de comenzar la jornada parrandera: 1. La…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/11/30/10-advertencias-para-el-fin-de-semana/",
+        "publishedAt": "2012-12-01T01:40:09.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-681",
+        "title": "Lección #50: Aprendiste o TESTas engañando?",
+        "summary": "En honor a que muchos están en medio de o terminando exámenes pues no podía quedarme atrás así que aquí les traigo un “examen sorpresa” #PeroProfesoooooooooor. Sí, dado que hemos llegado a la lección #50 sin querer queriendo, creo que antes de seguir es importante probar si han estado prestando atención en clase o están [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/12/03/leccion-50-aprendiste-o-testas-enganando/",
+        "publishedAt": "2012-12-04T01:37:43.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-693",
+        "title": "Lección #51: Cómo manejar una ruptura sin morir en el intento",
+        "summary": "Se acabó. Duró meses, duró años, duró lo que se sintió como una vida entera y ahora se separan, cada cual tomando su propio camino. Joder, hasta escribirlo es deprimente. Pero lo que viene ahora, oh hermanos míos, es la parte complicada. El post break up es casi un arte, uno en el que todos [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/12/09/leccion-51-como-manejar-un-rompimiento-sin-morir-en-el-intento/",
+        "publishedAt": "2012-12-10T03:25:33.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-711",
+        "title": "El post del fin del mundo",
+        "summary": "Y ya salió la Nasa, la CIA, la mamá de Tarzán, Luis Miguel y el señor que te vende tacos post juerga #DescendientesMaya a decir que no va a pasar absolutamente nada. Que todo fue una bromita que se salió un poco de control, que ellos se referían a Nicki Minaj con todo esto nos [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/12/20/el-post-del-fin-del-mundo/",
+        "publishedAt": "2012-12-20T20:07:53.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-736",
+        "title": "Lección #52: Navidad, navidad… pinche Navidad (8)",
+        "summary": "A todos, bueno menos a algunos grinchs declarados, nos gusta la navidad. Es una época de amor, familia, regalos, comida, celebración… ¿¿¿¿Qué no podría gustarte de la navidad???? #OhJustWaitAndSee. Sólo digamos que el termómetro del espíritu navideño usualmente se desenvuelve de la siguiente manera: Nivel 1: Jingle bells, jingle bells, jingle aaaaall the wa…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2012/12/24/leccion-52-navidad-navidad-pinche-navidad-8/",
+        "publishedAt": "2012-12-25T01:04:39.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-677",
+        "title": "Lección #53: ¿Cómo ser una verdadera soltera codiciada?",
+        "summary": "Y ahora que llegamos al 2013, habiendo pasado el medio centenar de publicaciones, risas, consejos, el blog ha cumplido oficialmente un añito #HappyBirthdayToMeeee. Por lo tanto es hora de que por fin nos dejemos de tonterías y tangentes, de este supuesto “empoderamiento femenino”, “neo feminismo” “sigo igual de loca y necia pero ahora lo logro [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/01/06/leccion-53-como-ser-una-verdadera-soltera-codiciada/",
+        "publishedAt": "2013-01-07T04:05:37.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-688",
+        "title": "Lección #54: Cuidado con los chicos buenos",
+        "summary": "En este blog hemos hablado de varios tipos de seres mitológicos con dos cabezas que usualmente piensan con la equivocada hombres con los que hay que tener extremo cuidado, porque prácticamente llevan un letrero de advertencia, con letras de neón, fuegos artificiales, alarmas y un cuarteto 24 horas que canta “if you are looking for trouble” [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/01/17/leccion-54-cuidado-con-los-chicos-buenos/",
+        "publishedAt": "2013-01-18T01:48:45.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-789",
+        "title": "Lección #55: The beach boys",
+        "summary": "Dado que el verano se está pasando más rápido que la grabación anunciando las restricciones de alguna promoción de Movistar #VALIDOHASTAfaslkfjasfaslTODOTUDINEROkasdadMUERTEaflkwadkla, me parece importante rendirle homenaje a los protagonistas masculinos de esta temporada, esos que se repiten cada año y le agregan color al paisaje playero, cual sombrillas d…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/01/21/leccion-55-the-beach-boys/",
+        "publishedAt": "2013-01-22T01:48:22.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-807",
+        "title": "Lección #56: ¿Por qué estás soltera?",
+        "summary": "Te levantas, te estiras, te sobas los ojos y lanzas un largo suspiro. Sí, hoy te sientes hasta las huevas. No, no estás con la regla, no, no estás enferma #DeLaCabezaUnPocoPeroEseEsOtroTema, simplemente te acaba de caer ese huayco gigante, destructivo, absolutamente avasallador de “Carajo, sigo soltera”. Porque tú ibas bien, ibas tranquila, habías leído un…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/01/27/leccion-56-por-que-estas-soltera/",
+        "publishedAt": "2013-01-28T03:27:44.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-821",
+        "title": "Especial de San Valentin: Tipos de parejas",
+        "summary": "E inevitablemente la tierra dio otra vuelta al sol, así como tú, inevitablemente hablaste más de la cuenta sobre tu ex el fin pasado #CambiaDeLadoElCasette #VintageReference, y ahora nos vemos a puertas de nada más y nada menos que, pausa para suspenso: SAN VALENTIN TIN TIN TIN TIN TIN (Muajajajajajajaja) Sí, el día del amor, [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/02/10/especial-de-san-valentin-tipos-de-parejas/",
+        "publishedAt": "2013-02-11T01:51:00.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-838",
+        "title": "COMUNICADO OFICIAL",
+        "summary": "He notado un sentido bitching lamento acerca de que no publico hace tiempo. Sí, es verdad que han pasado varios días sin post pero no tienen porqué gritarme tampoco #SCDignidad. Les pido que busquen en el fondo de sus almas, cual niño raspando lata de leche condensada #YoLaTapaChinChin y logren comprender que estoy teniendo unas semanas [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/02/26/comunicado-oficial/",
+        "publishedAt": "2013-02-27T00:42:24.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-845",
+        "title": "Lección #57: Mr.Think Again",
+        "summary": "Estás templada, mal. Lo sabes por ese absoluto estado de desesperación en el que entras cuando le mandas un mensaje por whatsapp y solo tiene una flechita, porque ya pasaron 12 horas sin verlo y lo extrañas más que la novia de George Clooney a la afeitadora, porque cuando estás con él eres un solo [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/03/03/leccion-57-mr-think-again/",
+        "publishedAt": "2013-03-04T02:29:33.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-864",
+        "title": "Lección #58: No, no lo has olvidado",
+        "summary": "Más de 30 lecciones han pasado desde que escribí ¿Cómo olvidar a alguien? y parece que todas han hecho un esfuerzo sentido, consciente y centrado por, bueno, hacer casi todo lo opuesto a lo que recomendé ahí #ACocachosAprendí. Porque, seamos sinceras, él sigue ahí, rondándote, como zancudo en una noche de verano, esos que pican [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/03/24/leccion-58-no-no-lo-has-olvidado/",
+        "publishedAt": "2013-03-25T02:03:58.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-887",
+        "title": "¿Qué onda con… 50 shades of Grey?",
+        "summary": "La semana pasada el ranking de Crisol mostró que la historia de Christian Grey y Anastasia Steel plasmada en el libro “50 Shades of Grey”, sigue liderando las ventas en nuestro país (a casi 2 años de su publicación) solamente superado por un modesto libro llamado Soltera Codiciada. Ahora solo nos separan 1 billón de [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/04/14/que-onda-con-50-shades-of-grey/",
+        "publishedAt": "2013-04-15T01:05:46.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-922",
+        "title": "Lección #59 Carta al amor (aún) no correspondido",
+        "summary": "En el conversatorio del viernes una de las chicas preguntó ¿cómo decirle a la persona que te gusta lo que sientes, si no estás segura de que él se siente igual? Y bueno, ese no es un viaje, es un salto al vacío, así que no puedo hacerte de guía turística. Pero si de sacar [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/04/21/leccion-59-carta-al-amor-aun-no-correspondido/",
+        "publishedAt": "2013-04-22T02:25:09.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-932",
+        "title": "Lección #60: No soy ese tipo de chica",
+        "summary": "Señoras y señores, niños y niñas, amixeres y culisueltas, zoológico distinguido público de este blog, Habiendo llegado a la base 6 (60 lecciones?!? qui?! ) pues de manera conmemorativa hablaremos de una característica absolutamente femenina: la autonegación. Sí, cuando de lavarse las manos, decirse una cosa por otra and over all, auto bulshitearse se trata…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/05/05/leccion-60-no-soy-ese-tipo-de-chica/",
+        "publishedAt": "2013-05-06T03:38:48.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-943",
+        "title": "Feliz día mamá",
+        "summary": "Yo debería haber sido hombre o no debería haber sido del todo. Conocida como “la yapa”, llegué a este mundo dieciséis años después que el segundo de mis hermanos, diecisiete después que el primero. Aparecí en el momento en que mi madre “terminaba de criar” a sus otros dos hijos, los veía salir del colegio y partir a la [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/05/12/feliz-dia-mama/",
+        "publishedAt": "2013-05-12T17:16:15.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-959",
+        "title": "Lección #61: 6 cosas que no debes soportar en una relación",
+        "summary": "El otro día conversaba con un amigo sobre la cantidad de estupideces que uno llega a aguantar “en nombre del amor”, cómo vas raspando de a poquitos la línea entre ser comprensivo y ser un absoluto idiota. Así que me enojé, por mí, por ustedes y porque ya basta de andar “tolerando” actitudes y comportamientos [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/05/19/leccion-61-5-cosas-que-no-debes-soportar-en-una-relacion/",
+        "publishedAt": "2013-05-20T02:31:42.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-976",
+        "title": "Lección #62: El falso “amigo con beneficios”",
+        "summary": "Ya, vamos con un poquito de sinceridad y menos calzones con bobos: hay más de una metida/interesada/haciéndoselacojudaperomandandoleindirectasasuspatas sobre el tema de los amigos con beneficios. En mi muy elocuente libro #pfff, a la venta en las principales librerías del país así como en el siguiente link del iStore: E-book en iTunes Store #EsMiBlogPuedoSe…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/06/02/leccion-62-el-falso-amigo-con-beneficios/",
+        "publishedAt": "2013-06-03T02:26:08.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1005",
+        "title": "Feliz día papá",
+        "summary": "Una de las frases que más he escuchado en mi vida es “Eres igualita a tu mamá” y si vieran fotos de las dos, probablemente ustedes estarían de acuerdo. Soy sin duda “hija de mi madre” y eso siempre será una forma de halago. Lo que muchos no alcanzan a ver, es lo lo mucho [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/06/16/feliz-dia-papa/",
+        "publishedAt": "2013-06-16T17:51:18.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1012",
+        "title": "Lección #63: Error 404: Situación sentimental not found",
+        "summary": "La verdad que estás feliz. Desde que empezaste a salir con él las cosas han fluido de manera impecable, te llama, te busca, hacen cosas pervertidas divertidas juntos y siempre la pasan bien. Te das una palmadita en la espalda, pareces haber encontrado uno que vale la pena #YLaPenaEstáALaVueltaDeLaEsquina. Hay sólo una cosita chiquitita #EsoDecíasDeTuEx [&he…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/06/16/leccion-63-error-404-situacion-sentimental-not-found/",
+        "publishedAt": "2013-06-17T02:52:57.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-996",
+        "title": "Lección #64: Guía para ser un patán",
+        "summary": "No la pases a buscar, queden en algún lado. Salúdala, no la mires a los ojos y no digas más, no te detengas a ver cómo luce, tal vez solo lo pronunciado de su escote, ignora el hecho de que probablemente se pasó tres horas entre pilas de ropa, con el Skype prendido probándose atuendos [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/06/23/leccion-64-guia-para-ser-un-patan/",
+        "publishedAt": "2013-06-24T03:01:28.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1021",
+        "title": "Lección #65: 20 reflexiones de una mujer de shopping",
+        "summary": "“Ese vestido hermoso solo está en una talla menos que la mía… lo compraré y me servirá de motivación para adelgazar” Los jeans son como los hombres, todos dicen que hay uno perfecto para ti pero eres incapaz de encontrarlo. “¿Cómo es posible que hayan pasado 15 años y Valeria Mazza todavía tenga 25 años?” [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/06/30/leccion-65-20-reflexiones-de-una-mujer-de-shopping/",
+        "publishedAt": "2013-07-01T02:37:03.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1037",
+        "title": "Lección #66: Aprender a desaprender",
+        "summary": "Nada te prepara para olvidar. Y no es raro, porque olvidar contradice varias de las cosas que uno aprende desde chico. Creces y vas entendiendo lo útil, lo importante de memorizar, de absorber información, de recolectarla y encapsularla en tu cabeza. Sientes que es valioso recordar y no dejar ir las cosas porque “algún día [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/07/14/leccion-66-aprender-a-desaprender/",
+        "publishedAt": "2013-07-15T02:43:48.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1049",
+        "title": "¿Qué onda con… “Enamórate de una mujer de verdad”?",
+        "summary": "En esta última semana he visto a varias personas citar o compartir un post/artículo/declaración/manifesto llamado “Enamórate de una mujer de verdad” donde reglón a reglón, la autora (o autor, o autores, porque si lo googlean verán que hay más versiones de ese post que de las canciones de los Beatles), pasa a describir como se [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/07/24/que-onda-con-enamorate-de-una-mujer-de-verdad/",
+        "publishedAt": "2013-07-24T23:26:32.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1034",
+        "title": "Lección #67: Vuelve el perro arrepentido",
+        "summary": "Quiero empezar haciendo una queja formal contra Bruno Mars. ¡¿Qué onda con este chato de peinados voluminosos y su habilidad para componer canciones que todas queremos que nos dediquen?! Es que te puede o no gustar su onda, o su estilo pero si alguien sabe manipular el estrógeno femenino como plastilina, es Bruno Marteses. Entonces [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/08/04/leccion-67-vuelve-el-perro-arrepentido/",
+        "publishedAt": "2013-08-05T03:46:25.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1074",
+        "title": "Álbum de las fantasías femeninas: El badboy reformado",
+        "summary": "Bueno, hemos estado un poquito serias últimamente en el blog y para que no piensen que los 25 años recién cumplidos (si-no-me-saludaste-estás-en-mi-lista-negra-tengo-antepasados-que-vivieron-en-Salem) se me han multiplicado por tres y ahora ando jugando canasta y usando pantalones caqui, he decidido crear esta serie de posts que irán saliendo y que harán ho…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/08/21/album-de-las-fantasias-femeninas-el-badboy-reformado/",
+        "publishedAt": "2013-08-22T02:36:10.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1097",
+        "title": "Lección #68: Carta a mi yo del pasado",
+        "summary": "Querida _________ de 15 años, Quisiera empezar esta carta aclarándote tres temas importantes: 1. La celulitis SÍ llega en algún momento, maldita adolescente consumidora de papas fritas y empanadas que no hace ejercicio porque “nunca engorda”. 2. Los pantalones desteñidos con formas de estrellas y con letras en glitter fueron una moda pasajera que debimos [&…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/09/01/leccion-68-carta-a-mi-yo-del-pasado/",
+        "publishedAt": "2013-09-02T02:54:08.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1108",
+        "title": "Lección #69 Mitos sobre el sexo",
+        "summary": "Es la lección 69… y en honor al popular número, pues hablemos de sexo (múltiples risitas cojudas se desataron a la vez). Y es amaaazing la cantidad de tonterías, prejuicios y concepciones equivocadas que uno tiene acerca de este tema. Así que hoy jugaremos a Myth Busters XXX: ¿Cuales son los típicos mitos sobre el [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/09/15/leccion-69-mitos-sobre-el-sexo/",
+        "publishedAt": "2013-09-16T02:56:15.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1114",
+        "title": "Lección #70: Durmiendo con el enemigo",
+        "summary": "Es nuestra lección 70 y sentí que tal vez era hora de traer un poco de perspectiva masculina a este maravilloso, divertido y altamente inestable nido de estrógeno. Para lograr mi cometido pues decidí invitar a un buen representante del sexo opuesto, y uno de mis blogueros favoritos, a quien llamaré sólo S (pidió permanecer [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/09/29/leccion-70-durmiendo-con-el-enemigo/",
+        "publishedAt": "2013-09-30T02:58:40.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1085",
+        "title": "Lección #71 “Diez señales de que estás enamorada”",
+        "summary": "1. El mundo es un lugar más colorido y feliz: Empezaste tu día y aunque tres taxistas te gritaron pelotudeces, una combi trató de asesinarte, no sacaste chompa porque “ya es primavera” y ahora te estás repooping de frío, no puedes dejar de sentirte así: 2. Desarrollas cierto interés por cosas que no te gustan [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/10/13/leccion-71-diez-senales-de-que-estas-enamorada/",
+        "publishedAt": "2013-10-14T02:32:36.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1138",
+        "title": "Lección #72 Amor a distancia",
+        "summary": "Un celebrado pensador griego #not alguna vez dijo: Las relaciones a distancia son como cuidarse con el método del ritmo, hay que ser bien idiota para hacerlo y sólo le funciona a un par de suertudos. Aún así, me declaro culpable del crimen, ya que el tema lo he vivido en carne propia y por [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/10/27/leccion-72-amor-a-distancia/",
+        "publishedAt": "2013-10-28T02:23:56.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1150",
+        "title": "Lección #73: Cinco razones por las cuales es genial ser hombre",
+        "summary": "Esta semana celebramos (?) el día del hombre que coincidentemente compartió la fecha con el día del inodoro en honor a todos aquellos que insisten en dejar la cagada #ChisteFácil. Pero bueno, volviendo a la testosterona party, me puse ese día a pensar en todas aquellas cosas por las cuales debe ser rico ser hombre, [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2013/11/24/leccion-73-cinco-razones-por-las-cuales-es-genial-ser-hombre/",
+        "publishedAt": "2013-11-25T03:17:16.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1162",
+        "title": "Lección #74: Crónica de un año anunciado",
+        "summary": "Estás en la fiesta de año nuevo cuando empieza la cuenta regresiva…10…9…8…y en tu cabeza va corriendo una presentación audiovisual de todo lo que fue tu año anterior, así como la de Facebook, pero sin random fotos con inesperados likes. No puedes evitar tornarte reflexiva y llenarte de una extraña nostalgia al pensar en todos [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/01/05/leccion-74-cronica-de-un-ano-anunciado/",
+        "publishedAt": "2014-01-06T02:18:25.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1174",
+        "title": "Lección #75: El pescadito muerto",
+        "summary": "Madres del Perú, estoy sumamente preocupada con todo esto del video/SexTapeAmateur de nuestro Paris Hilton peruano. Muchas de ustedes deben tener hijas adolescentes, de todas ellas por lo menos unas 4 o 5 seguirán siendo vírgenes y es absolutamente importante que mantengamos este video alejado de ellas. Y debo aclarar que no es por protegerlas [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/01/19/leccion-75-el-pescadito-muerto/",
+        "publishedAt": "2014-01-20T02:47:23.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1149",
+        "title": "Lección #76: ¿Debería llamarlo?",
+        "summary": "Ahí estás tú, paralizada, observando tu inerte celular y mandándole órdenes telepáticas de que se prenda y haya un mensaje, un llamado, aunque sea un maldito emoticon que venga de parte de él. Y entonces, la pregunta aparece en tu cabeza ¿Debería llamarlo? Bueno, para responder esa pregunta, primero debes responder tú a estas preguntas: [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/02/02/leccion-76-deberia-llamarlo/",
+        "publishedAt": "2014-02-03T02:47:39.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1211",
+        "title": "Carta a mi futura hija",
+        "summary": "Hola muñequita. Me encanta ese apodo, “muñequita”, es como siempre me ha dicho tu abuelo a mí. No sé bien cómo lucirás, ni cuando exactamente llegarás a mi vida, puede que seas una sorpresa o vengas después de una extensa planificación, yo que amo el control, pienso que será la segunda, pero la vida tiene [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/03/08/carta-a-mi-futura-hija/",
+        "publishedAt": "2014-03-08T14:52:29.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1216",
+        "title": "Lección #77: La amiga que quiero ser para ti",
+        "summary": "La enfermera Desde esa gripe que te hace actuar como una baba humana hasta las consecuencias de usar como bajativo al Jäger, desde las migrañas que te ponen más irritable que el Hulk, hasta los duendes pequeños con machetes que atacan tus ovarios… ahí estaré. Haré sopita, compraré aromatizadores, o te llevaré el postre más [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/03/30/leccion-77-la-amiga-que-quiero-ser-para-ti/",
+        "publishedAt": "2014-03-31T00:45:35.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-679",
+        "title": "Lección #78: 5 besos que deberías tener",
+        "summary": "El beso de despedida Besa algún día con esa absoluta desesperación y sensación de pérdida. Besa como queriendo detener el tiempo y paralizarlo todo. Besa sabiendo que todo eso ya no será parte de ti una vez que acabes, besa sabiendo que solo podrás besarlo de nuevo entre sueños y en recuerdos, que eso te [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/04/13/leccion-78-5-besos-que-deberias-tener/",
+        "publishedAt": "2014-04-14T03:14:09.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1247",
+        "title": "Lección #79: 10 atuendos que todas tenemos",
+        "summary": "El que NO dices que tienes puesto cuando estás chateando calentonamente con alguien – y … ¿qué tienes puesto ahorita? – Un camisón negro y unas “braguitas” de encaje. Bitchplease. Tienes un buso gris al que ya se le soltó la pretina y se te baja, un polo con una frase random en inglés que [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/05/18/leccion-79-10-atuendos-que-todas-tenemos/",
+        "publishedAt": "2014-05-19T03:28:19.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1253",
+        "title": "Lección #80 El checklist del hombre incorrecto",
+        "summary": "Celebrando el post 80 y la casi senectud del blog, es momento de revisar nuevamente si están todas prestando atención y poniendo en práctica todos los sabios #yawey consejos repartidos aquí. A estas alturas del partido, ya deberían tenerla clarísimas #colorchocolate cuáles son las cosas que deben buscar en un hombre y cuáles no. Enfantizando [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/05/25/leccion-80-el-checklist-del-hombre-incorrecto/",
+        "publishedAt": "2014-05-26T03:00:17.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1269",
+        "title": "Lección #81: El mundial es la regla de los hombres",
+        "summary": "La regla, ese umbral al que ingresamos todos los meses las mujeres para convertirnos en una versión ultrasensible, desajustada y un tanto sociópata de nosotras mismas. Bueno, los hombres también tienen el suyo, y hay una copa de por medio. ¿A qué me refiero? Aquí hay 5 razones que explican cómo este mes los hombres están [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/06/08/leccion-81-el-mundial-es-la-regla-de-los-hombres/",
+        "publishedAt": "2014-06-09T02:05:16.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1300",
+        "title": "Lección #82: ¿Por qué las mujeres son tan complicadas?",
+        "summary": "Te levantas, refunfuñas, apagas el despertador, consideras quedarte en la cama #PostergarAlarmaPostergarAlarmaPostergarAlarma… Te paras, miras al espejo y OMFG no pareces salida de la cama sino de la tele #ElAroModeOn. Odias tus ojeras, tienes un grano en la frente gracias a la cojonuda ironía de que tu piel siga siendo adolescente pero no tu porcentaje [&h…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/07/20/leccion-82-por-que-las-mujeres-son-tan-complicadas/",
+        "publishedAt": "2014-07-21T02:29:27.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1308",
+        "title": "Lección #83: 26 cosas que pasan a los 26",
+        "summary": "Mañana, 4 de Agosto, es mi cumpleaños y en honor a mis 26 velitas, y olvidando el hecho de que estoy en cuenta regresiva hacia los 30 #RelooojNoMarquesLasHoooras, aquí un conteo con todas aquellas cosas que empiezan a pasar en los “late twenties”: 1. Ya pasó (si es que alguna vez existió) el momento en [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/08/03/leccion-83-26-cosas-que-pasan-a-los-26/",
+        "publishedAt": "2014-08-04T03:06:22.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1321",
+        "title": "Lección #84: Cosas que pasan cuando terminas una relación larga",
+        "summary": "La gente que todavía no lo sabe y te pregunta por él – Y, ¿cómo está Perencejo? – Pues vas a tener que preguntárselo tú, porque terminamos. Silencio incómodo seguido por el infaltable ¿Queé pasooo? con el mismo grado de preocupación que si le hubieses anunciado que te amputaron la pierna. “¿Quieres saber qué pasó? Bueno, [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/08/31/leccion-84-cosas-que-pasan-cuando-terminas-una-relacion-larga/",
+        "publishedAt": "2014-09-01T02:31:24.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1342",
+        "title": "Lección #85: 16 momentos que pasan durante la regla.",
+        "summary": "1.El momento en que te das cuenta que no estás embarazada. 2.El momento en que sientes que si no comes toda la comida del mundo, no podrás seguir existiendo. 3.El momento en que te das cuenta que estás fantaseando con un enamorado… de chocolate. 4. El momento en que miras un bebé y deseas con [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/10/12/leccion-85-16-momentos-que-pasan-durante-la-regla/",
+        "publishedAt": "2014-10-13T02:18:02.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1374",
+        "title": "Lección #86 Tu vida amorosa es una historia de terror",
+        "summary": "Halloween pasó por nuestras vidas un año más, dejándonos importantes hechos como: 1. Todos se sienten menos culpables de estar celebrando Halloween y no la canción criolla, si el DJ de la fiesta pone festejo a las 4 de la mañana. 2. Hubieron tantas fotos de gatitas que mi Facebook parecía el Parque Kennedy. 3. La [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/11/02/leccion-86-tu-vida-amorosa-es-una-historia-de-terror/",
+        "publishedAt": "2014-11-03T04:04:49.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1392",
+        "title": "Carta a un hombre abusivo",
+        "summary": "En el 2013 se me pidió hacer una colaboración para el libro “Cartas de mujeres” como parte de una gran iniciativa que tiene el objetivo de prevenir y erradicar la violencia de género. Mi aporte a este libro se llamó “Carta a un hombre abusivo” y vi la necesidad de compartirlo con ustedes [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/11/23/carta-a-un-hombre-abusivo/",
+        "publishedAt": "2014-11-24T01:58:50.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1404",
+        "title": "Lección #87: Lo que quiero para el 2015",
+        "summary": "Ay 2015, realmente quiero que seas un gran año. Sí lo sé, sientes que se lo he dicho a todos los demás años, pero siendo sinceros, no se puede confiar en alguien con 4 copas de champaña encima, lentes ridículos y ropa interior amarilla. Entonces te la voy a poner fácil, porque entiendo que todo [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2014/12/31/leccion-87-lo-que-quiero-para-el-2015/",
+        "publishedAt": "2015-01-01T00:26:03.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1412",
+        "title": "Lección #88: Amiga, eres una idiota",
+        "summary": "Tú sabes que yo siempre estoy de tu lado, es mi tarea como amiga. El código de honor femenino amical me ha hecho llevarte chocolate cuando te dolieron los ovarios, poner a tu disposición mi closet cual boutique y nunca juzgar la cantidad de comida que pediste de delivery. Junto con esto también te he [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/01/18/leccion-88-amiga-eres-una-idiota/",
+        "publishedAt": "2015-01-19T01:44:28.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1418",
+        "title": "Lección #89: No me felicites.",
+        "summary": "No me felicites hoy, no me celebres el ser mujer porque sí, porque es coyuntural, porque viene después de San Valentín y antes del Día de la madre. No te sientas llamado a decirme que las mujeres somos lindas, buenas, únicas. No es una fecha para que me des una palmadita en el hombro y [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/03/08/leccion-89-no-me-felicites/",
+        "publishedAt": "2015-03-08T19:42:56.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1424",
+        "title": "Lección #90: Terminar una relación interminable",
+        "summary": "&nbsp; Sabes que tienes que terminarle y lo sabes hace un tiempo. Ya has perdido la cuenta de la cantidad de veces que has estado a punto de apretar el gatillo y has retrocedido llenándote de excusas “no es el momento correcto” “tal vez estoy apurándome” “se acerca mi cumpleaños y me da flojera estar [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/04/05/leccion-90-terminar-una-relacion-interminable/",
+        "publishedAt": "2015-04-06T00:10:53.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1433",
+        "title": "Lección #91: Sobria vs Borracha",
+        "summary": "Porque todo depende del ojo con el que se mire (y la cantidad de alcohol consumida previamente): La honestidad: Sobria: Esta chica nunca me cayó muy bien, siempre la encontré antipática así que terminaré esta conversación civilizadamente y me iré para otra parte. Borracha: – Webona ahora que somos patas… *la abraza … siento que [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/05/17/leccion-91-sobria-vs-borracha/",
+        "publishedAt": "2015-05-18T01:27:40.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1443",
+        "title": "Lección #92: Cómo ser un mal ex.",
+        "summary": "Algunos hombres, como los chifas de 5 lucas, después de terminar con ellos se te quedan regresando y haciéndote sentir mal. Aquí un par de características de estos tóxicos personajes: Te sigue contactando (a pesar de que le pediste que no lo hiciera): Una a veces se pregunta si está teniendo problemas de pronunciación o [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/06/21/leccion-92-como-ser-un-mal-ex/",
+        "publishedAt": "2015-06-22T03:01:00.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1452",
+        "title": "Lección #93: 9 cosas que harían que afanar fuese más fácil.",
+        "summary": "1. Después de salir juntos por un tiempo determinado, automáticamente se vuelven novios. Por regla, después de una X cantidad de salidas, el estado sentimental de los dos cambia sin preguntar. Sería un mundo más feliz si no hubieran zonas grises y ambiguas donde todo el rato pareces estar “a punto de” pero nunca se [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/07/12/leccion-93-9-cosas-que-harian-que-afanar-fuese-mas-facil/",
+        "publishedAt": "2015-07-13T03:17:24.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1464",
+        "title": "Lección #94: El eterno “todavía”.",
+        "summary": "Son amigos, por eso es que la relación entre los dos va a funcionar eventualmente porque, más que agarres, más que afanes, más que es-domingo-necesito-sentir-que-no-estoy-solo-en-el-mundo-ven-acá, son amigos. Lo que implica que se quieren, se respetan, se cuidan y buscan lo mejor el uno para el otro. Eso es lo que te dices, una y otra [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/07/19/leccion-94-el-eterno-todavia/",
+        "publishedAt": "2015-07-20T03:08:05.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1473",
+        "title": "Lección #95: Mereces alguien mejor",
+        "summary": "Alguien con quien puedas abrir la caja de pandora y decir “hey, aquí están mis fantasmas, no son bonitos, no serán fáciles de manejar” y eso no lo asuste ni lo intimide, por el contrario, le dé una razón para acercarse más a ti, para conocerte y ayudarte a cicatrizar aquellas heridas que sigan abiertas. [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/09/06/leccion-95-mereces-alguien-mejor/",
+        "publishedAt": "2015-09-07T03:49:31.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1499",
+        "title": "La hija de papá",
+        "summary": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Los domingos en este blog son los días de post, no todos, no siempre, pero es una tradición que he tratado de mantener a lo largo de los años. Pero este domingo es como ninguno otro que me haya tocado vivir, es el primero sin [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/10/04/la-hija-de-papa/",
+        "publishedAt": "2015-10-05T03:15:52.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1512",
+        "title": "Lección #96: Carta a la nueva novia de mi ex",
+        "summary": "Tú y yo no nos caemos bien, dejemos eso en claro. No importa que tan simpática seas tú o que tan superada sea yo, hay una enemistad casi inevitable cuando se trata de dos mujeres que han estado calatas con el mismo hombre sin querer hacerlo (aprovecho de advertirte que él te pedirá una versión [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2015/11/15/leccion-96-carta-a-la-nueva-novia-de-mi-ex/",
+        "publishedAt": "2015-11-16T02:23:30.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1518",
+        "title": "11 momentos inolvidables que me ha traído este blog",
+        "summary": "1. La publicación del primer post y mi total seguridad de que mi único público serían mi madre y dos amigas solo para despertar al día siguiente y ver atónita que el conteo de visitas estaba en 200. 2. La vez que con dos cinco tragos demás le pregunté a una chica en el baño de [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2016/01/05/11-momentos-inolvidables-que-me-ha-traido-este-blog/",
+        "publishedAt": "2016-01-06T03:34:08.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1539",
+        "title": "Lección #97: El poder de la culpa",
+        "summary": "Sientes culpa por no tener el pelo más manejable, la frente sin líneas de expresión, la nariz más pequeña, los ojos más marcados, la boca más carnosa, las pestañas más rizadas, el torso más alargado, las tetas más grandes, el poto más levantado, la cintura más estrecha, el abdomen más plano, los muslos más contorneados, [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2016/01/31/leccion-97-el-poder-de-la-culpa/",
+        "publishedAt": "2016-02-01T01:47:43.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1554",
+        "title": "Lección #98: #NoMeFelicites",
+        "summary": "A todas las marcas. Seguro se han apurado en sacar una promoción por el mes de la mujer, una oferta diseñada “solo para ellas”. Probablemente han anunciado orgullosos que quieren celebrarnos dándonos acceso a productos que nos hagan sentir lindas, guapas, queridas, ESPECIALES. Porque nada grita mejor “eres especial” que un 30% de descuento en manicure y [&h…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2016/03/06/nomefelicites/",
+        "publishedAt": "2016-03-07T03:02:20.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1558",
+        "title": "Lección #99: Despedida de Soltera",
+        "summary": "Yo, María José Osorio, voy a proceder a contraer nupcias con un joven chileno de buen semblante y corazón de oro, el día sábado 19 de Marzo del presente año. Puedo dar fe de que es un buen tipo a pesar de haberme dejado en visto un par de veces mientras afanábamos. Es, además, un [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2016/03/13/leccion-99-despedida-de-soltera/",
+        "publishedAt": "2016-03-14T04:05:16.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1625",
+        "title": "RECORDATORIO #1: CON ESTE HOMBRE NO TE METAS.",
+        "summary": "Han pasado 2 años desde mi último post y realmente pensé que éste iba a ser un tiempo de reflexión, de crecimiento personal y madurez para ustedes, un periodo donde aplicaran lo leído y mejoraran su brújula sentimental dejando así de perder el tiempo con perencejos y saliendo por fin del lodo frescas y renovadas, [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2020/09/11/recordatorio-1-con-este-hombre-no-te-metas/",
+        "publishedAt": "2020-09-11T15:20:47.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1629",
+        "title": "RECORDATORIO #2: DEJA DE MENTIRTE",
+        "summary": "El cerebro femenino tiene tres actividades principales: pensar en comida, generar culpa y generar mentiras que permitan autoengañarnos para evitar sentir culpa #PeroQueRicoEsElQueso. ¿No me crees? Veamos cuántas de éstas mentiras has dicho o te estás diciendo: “No pasa nada entre nosotros” Sí claro, tú y él son sólo dos personas más en el mundo. [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2020/09/11/recordatorio-2-deja-de-mentirte/",
+        "publishedAt": "2020-09-11T15:22:57.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1633",
+        "title": "RECORDATORIO #3: GRACIAS, AMIGA",
+        "summary": "Querida (inserte apodo ligeramente ofensivo pero cariñoso aquí), Hay varias cosas que quiero decirte hoy pero si te lo digo por mensaje de voz se me acalambra el dedo, así que mejor te las dejo acá, en una carta, como lo hacían nuestros antepasados en los años 90. Gracias por prestarme ropa y perdóname por [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2020/09/11/recordatorio-3-gracias-amiga/",
+        "publishedAt": "2020-09-11T15:24:10.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1636",
+        "title": "RECORDATORIO #4: AL DRAMA DILE NO",
+        "summary": "El blog y el drama son como el apellido Fujimori y la corrupción: siempre los vas a encontrar de la mano. Y dado que tú sigues desmayándote cual Florcita ante cualquier suceso en la vida, esta vez le dedicaremos un post entero al tema #MejorActrizDramáticaSiempre. Si estás pensando que vas a darle a la “x” [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2020/09/11/recordatorio-4-al-drama-dile-no/",
+        "publishedAt": "2020-09-11T15:27:56.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1640",
+        "title": "Lección #100: Princesa que se respeta, se rescata sola",
+        "summary": "Había una vez una hermosa princesa que había leído demasiados cuentos de hadas y visto demasiadas comedias románticas para su propio bien. Desde pequeña sintió fascinación por aquel personaje masculino que aparecía eventualmente en la vida de una y todo parecía arreglarse; todo aquello que estuviese mal, que doliera, que fuese incómodo e imperfecto se [&hel…",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2020/09/11/leccion-100-princesa-que-se-respeta-se-rescata-sola/",
+        "publishedAt": "2020-09-11T15:29:07.000Z",
+        "language": "es"
+      },
+      {
+        "id": "blog-sc-1649",
+        "title": "¿Una última lección?",
+        "summary": "Han pasado 5 años desde que estrenamos Soltera Codiciada y 11 desde que este blog arrancó. En sus comienzos se llamó Manual de la Soltera Codiciada porque yo, que por lo visto me creía la última Kola Escocesa del desierto (referencia solo válida para arequipeños), pensé que podía enseñarles lo que había que hacer y [&hellip;]",
+        "source": "Soltera Codiciada",
+        "url": "https://solteracodiciada.com/2023/07/02/una-ultima-leccion/",
+        "publishedAt": "2023-07-02T19:40:00.000Z",
+        "language": "es"
+      }
+    ]
+  }
+}
