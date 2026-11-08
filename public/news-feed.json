@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-11-08T02:56:45.358Z",
+  "updatedAt": "2026-11-08T04:11:24.505Z",
   "categoryUpdatedAt": {
     "economy": "2026-11-08T02:29:30.577Z",
     "science": "2026-11-08T02:29:30.577Z",
     "civil": "2026-11-08T02:29:30.577Z",
+    "civilgeeks": "2026-11-08T04:11:24.505Z",
     "nobel": "2026-11-08T02:29:30.577Z",
     "ai": "2026-11-08T02:29:30.577Z",
     "spreadsheets": "2026-11-08T02:29:30.577Z",
@@ -322,6 +323,128 @@
         "publishedAt": "2025-03-27T12:00:00.000Z",
         "language": "en",
         "imageUrl": "https://www.asce.org/-/media/asce-images-and-files/publications-and-news/source/images/2025/03-march/5-key-takeaways-from-the-2025-report-card-for-americas-infrastructure/report-card-cover-web-feat.jpg"
+      }
+    ],
+    "civilgeeks": [
+      {
+        "id": "a0cdd36e2a89f568",
+        "title": "El Niño 2026–2027 y la ingeniería civil: qué obras deben prepararse ahora",
+        "summary": "El Niño 2026–2027 plantea retos distintos para puentes, drenajes, taludes y obras en ejecución. Repasamos el pronóstico peruano y medidas que pueden anticipar los ingenieros civiles.",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2026/11/03/el-nino-ingenieria-civil-peru-2026-2027/",
+        "publishedAt": "2026-11-03T20:33:03.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2026/11/el-nino-ingenieria-civil-portada.png",
+        "language": "es"
+      },
+      {
+        "id": "fb9f751407e25d32",
+        "title": "EPA SWMM 5: sigue la lluvia desde el techo hasta el colector",
+        "summary": "Conoce EPA SWMM 5, el software gratuito para modelar lluvia, escorrentía, redes de drenaje e infraestructura verde. Incluye un ejemplo práctico y recursos oficiales.",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2026/11/03/epa-swmm-5-sigue-la-lluvia-desde-el-techo-hasta-el-colector/",
+        "publishedAt": "2026-11-03T13:24:10.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2026/11/exec-b13d94b4-bf02-4f55-8a7a-f48c47b3e979.png",
+        "language": "es"
+      },
+      {
+        "id": "05463109d9356604",
+        "title": "El enemigo silencioso de tus muros de contención (El agua)",
+        "summary": "En CivilGeeks lo decimos siempre:👉 una estructura no falla por casualidad, falla por un error de criterio. Y en el caso de los muros de contención, el error más común no está en el cálculo del concreto ni en la cantidad de acero…Está en olvidarse del agua. ⚠️ Muros que no colapsan por débiles, sino",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2025/12/19/el-enemigo-silencioso-de-tus-muros-de-contencion-el-agua/",
+        "publishedAt": "2025-12-19T22:09:23.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2025/12/ChatGPT-Image-19-dic-2025-04_59_10-p.m.png",
+        "language": "es"
+      },
+      {
+        "id": "b90d315038b5d9a7",
+        "title": "Compendio de Sistemas y Tecnologías de Saneamiento",
+        "summary": "Este Compendio define saneamiento como un proceso de múltiples pasos, el excremento es llevado desde el punto de su generación hasta el punto de su uso o disposición final. Un sistema de saneamiento se compone de Productos (disposiciones finales) que viajan a través de Grupos Funcionales conformados por Tecnologías que pueden seleccionarse de acuerdo con",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2025/08/19/compendio-de-sistemas-y-tecnologias-de-saneamiento/",
+        "publishedAt": "2025-08-19T16:58:03.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2025/08/Compendio-de-Sistemas-y-Tecnologias-de-Saneamiento.jpg",
+        "language": "es"
+      },
+      {
+        "id": "7dee8991a6884fe9",
+        "title": "LIBRO DE OBRAS HIDRÁULICAS [Felipe Arreguín Cortés]",
+        "summary": "Desde las primeras civilizaciones se observó la necesidad de construir infraestructura que permitiera protegerlas contra inundaciones, paliar las sequías y aprovechar el agua en diversas actividades, incluso en regiones alejadas de los cuerpos de agua. Sin lugar a dudas, las presas han demostrado ser las obras hidráulicas que mejor permiten aumentar la resi…",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2024/02/27/libro-de-obras-hidraulicas-felipe-arreguin-cortes/",
+        "publishedAt": "2024-02-27T16:36:45.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2024/02/Obras-hidraulicas-Felipe-Arreguin-Cortes.jpg",
+        "language": "es"
+      },
+      {
+        "id": "194fdd7b195ef0c1",
+        "title": "TRATAMIENTO DE AGUAS, Ejercicios Resueltos y prácticas de Laboratorio",
+        "summary": "Libro con una colección de ejercicios y prácticas de laboratorio en el área del tratamiento de aguas residuales y potables. Estos ejercicios se complementan, además, con una colección de prácticas de laboratorio, centradas fundamentalmente en el análisis y caracterización de aguas. La presente colección de ejercicios prácticos resueltos pretende ayudar a lo…",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2024/01/06/tratamiento-de-aguas-ejercicios-resueltos-y-practicas-de-laboratorio/",
+        "publishedAt": "2024-01-07T02:30:15.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2024/01/TRATAMIENTO-DE-AGUAS.jpg",
+        "language": "es"
+      },
+      {
+        "id": "5ac61edf0951db53",
+        "title": "Libro para el Tratamiento de aguas residuales",
+        "summary": "Este libro compila las experiencias de los múltiples cursos ofrecidos sobre el tema. Asimismo, dado que casi el 50% de las plantas de tratamiento de aguas residuales municipales utilizan la tecnología de lodos activados, se ha enfatizado sobre esta tecnología de tratamiento. Este libro incluye un capítulo sobre calidad del agua, donde se explica el",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2024/01/05/libro-para-el-tratamiento-de-aguas-residuales/",
+        "publishedAt": "2024-01-05T21:59:07.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2024/01/Tratamiento-de-aguas-residuales.jpg",
+        "language": "es"
+      },
+      {
+        "id": "9063aa0ab96b9a4e",
+        "title": "Guía de diseño y construcción de Alcantarillados",
+        "summary": "El alcantarillado consiste en una serie de tuberías y obras complementarias para recibir, conducir y evacuar las aguas residuales producidas por las actividades humanas y por las lluvias. Se opta un sistema de alcantarillado para control de materia ambiental, para satisfacer las necesidades de las ciudades y con técnicas comunes como el diseño hidráulico, p…",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2024/01/05/guia-de-diseno-y-construccion-de-alcantarillados/",
+        "publishedAt": "2024-01-05T14:38:56.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2024/01/Guia-de-diseno-y-construccion-de-Alcantarillados.jpg",
+        "language": "es"
+      },
+      {
+        "id": "2ee1da53dd5a8b54",
+        "title": "MANUAL DE CONSTRUCCIÓN Y MANTENIMIENTO DE LETRINAS",
+        "summary": "El presente manual pretende contribuir a la búsqueda de soluciones de adaptación a las consecuencias que traen los incrementos en la frecuencia e intensidad de lluvias y de las prolongadas sequias con respecto al abordaje de saneamiento, mediante el uso, construcción y mantenimiento adecuado de letrinas. Con ello se pretende, proporcionar soluciones a las l…",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2023/12/14/manual-de-construccion-y-mantenimiento-de-letrinas/",
+        "publishedAt": "2023-12-14T23:16:00.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2023/12/Captura-de-Pantalla-2023-12-14-a-las-5.12.14-p.-m.png",
+        "language": "es"
+      },
+      {
+        "id": "6fd7085144283bb8",
+        "title": "Diseño de drenaje Pluvial para mejorar la accesibilidad en un Caserío",
+        "summary": "El presenta trabajo de investigación se desarrolla dentro de la normativa vigente de la Norma Técnica Peruana en delante de esta tesis NTP trata de resolver o mitigar un problema social que acarrean casi en su totalidad todas las ciudades del Perú donde se generan grandes eventos lluviosos básicamente se pretende evacuar las aguas superficiales",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2023/11/06/diseno-de-drenaje-pluvial-para-mejorar-la-accesibilidad-en-un-caserio/",
+        "publishedAt": "2023-11-06T14:40:50.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2023/11/drenaje-Pluvial-para-mejorar-la-accesibilidad-en-un-Caserio-.jpg",
+        "language": "es"
+      },
+      {
+        "id": "ffcbdd3202d7dba3",
+        "title": "Diseño de la red de Drenaje Pluvial en los pueblos jóvenes",
+        "summary": "La presente investigación tiene el objetivo de diseñar una red de drenaje pluvial para los Pueblos Jóvenes, con la finalidad de evitar que los habitantes se vean afectados en tiempos de lluvias. La eficiencia de un sistema de drenaje pluvial depende del tipo de superficie que éste tenga para poder drenar las aguas, el proyecto",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2023/10/27/diseno-de-la-red-de-drenaje-pluvial-en-los-pueblos-jovenes/",
+        "publishedAt": "2023-10-27T19:13:29.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2023/10/Captura-de-Pantalla-2023-10-27-a-las-1.52.30-p.-m.png",
+        "language": "es"
+      },
+      {
+        "id": "233e1f261826a06b",
+        "title": "Manual de Prácticas del Laboratorio de Mecánica de Fluidos I",
+        "summary": "Para comprender la transferencia de momento en un fluido es preciso estudiar el movimiento de los fluidos y de las fuerzas que producen dichos movimientos. Por la segunda ley de Newton, se sabe que la fuerza está directamente relacionada con la razón de cambio del momento de un sistema con respecto al tiempo. Si se",
+        "source": "CivilGeeks",
+        "url": "https://civilgeeks.com/2023/10/23/manual-de-practicas-del-laboratorio-de-mecanica-de-fluidos-i/",
+        "publishedAt": "2023-10-24T00:12:58.000Z",
+        "imageUrl": "https://civilgeeks.com/wp-content/uploads/2023/10/Captura-de-Pantalla-2023-10-23-a-las-7.03.04-p.-m.png",
+        "language": "es"
       }
     ],
     "nobel": [

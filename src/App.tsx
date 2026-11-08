@@ -10,7 +10,6 @@ import { categoryDisplayName } from './domain/categories'
 import { filterMovements, localDateKey } from './domain/movementFilters'
 import { EntityIcon, publicAsset } from './components/EntityIcon'
 import { BanknoteCarousel } from './components/BanknoteCarousel'
-import { AppLock } from './components/AppLock'
 import { NewsPage } from './components/NewsPage'
 
 type Tab = 'home' | 'movements' | 'income' | 'expense' | 'news' | 'settings'
@@ -28,12 +27,10 @@ interface AppProps {
   repository?: FinanceRepository
   initialAnalysisMonth?: Date
   demoMode?: boolean
-  requirePin?: boolean
 }
 
-export default function App({ repository: suppliedRepository, initialAnalysisMonth, demoMode = false, requirePin = true }: AppProps) {
+export default function App({ repository: suppliedRepository, initialAnalysisMonth, demoMode = false }: AppProps) {
   const [repository] = useState<FinanceRepository>(() => suppliedRepository ?? new IndexedDbFinanceRepository())
-  const [unlocked, setUnlocked] = useState(!requirePin)
   const [snapshot, setSnapshot] = useState<FinanceSnapshot>(emptySnapshot)
   const [tab, setTab] = useState<Tab>('home')
   const [loading, setLoading] = useState(true)
@@ -51,19 +48,7 @@ export default function App({ repository: suppliedRepository, initialAnalysisMon
     }
   }
 
-  useEffect(() => { if (unlocked) void refresh() }, [unlocked])
-
-  useEffect(() => {
-    if (!requirePin) return
-    const lock = () => setUnlocked(false)
-    const lockWhenHidden = () => { if (document.visibilityState === 'hidden') lock() }
-    window.addEventListener('pagehide', lock)
-    document.addEventListener('visibilitychange', lockWhenHidden)
-    return () => {
-      window.removeEventListener('pagehide', lock)
-      document.removeEventListener('visibilitychange', lockWhenHidden)
-    }
-  }, [requirePin])
+  useEffect(() => { void refresh() }, [])
 
   const saveFund = async (fund: Fund) => {
     const duplicate = snapshot.funds.some(
@@ -107,7 +92,6 @@ export default function App({ repository: suppliedRepository, initialAnalysisMon
   const pageTitle = tab === 'movements' ? 'Movimientos' : tab === 'income' ? 'Ingresos' : tab === 'expense' ? 'Egresos' : tab === 'news' ? 'Portada editorial' : 'Configuración'
   const canAddMovement = snapshot.funds.some((fund) => !fund.archived) && snapshot.categories.some((category) => !category.archived)
 
-  if (!unlocked) return <AppLock onUnlock={() => setUnlocked(true)} />
   if (loading) return <div className="app-loading"><img src={publicAsset('/control-money-icon.png')} alt="" /><p>Preparando tu espacio…</p></div>
 
   return (

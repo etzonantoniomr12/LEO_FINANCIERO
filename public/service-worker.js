@@ -1,4 +1,4 @@
-const CACHE_NAME = 'leo-financiero-v5'
+const CACHE_NAME = 'leo-financiero-v6'
 const BASE_PATH = new URL(self.registration.scope).pathname
 const fromBase = (path = '') => `${BASE_PATH}${path}`
 const STATIC_FILES = [

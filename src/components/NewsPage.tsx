@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type TouchEvent } from 'react'
 import { publicAsset } from './EntityIcon'
 
-type NewsCategoryId = 'economy' | 'science' | 'civil' | 'nobel' | 'ai' | 'spreadsheets' | 'blog_sc'
+type NewsCategoryId = 'economy' | 'science' | 'civil' | 'civilgeeks' | 'nobel' | 'ai' | 'spreadsheets' | 'blog_sc'
 
 type NewsItem = {
   id: string
@@ -26,6 +26,7 @@ const categories: Array<{ id: NewsCategoryId; label: string; kicker: string; tit
   { id: 'economy', label: 'Economía', kicker: 'GESTIÓN · PERÚ', title: 'Economía que mueve tus decisiones', copy: 'Actualidad económica peruana publicada por Diario Gestión.', symbol: '₱' },
   { id: 'science', label: 'Science', kicker: 'ENGLISH READING', title: 'Science and discoveries', copy: 'Relevant discoveries in English for intermediate and advanced reading.', symbol: '◎' },
   { id: 'civil', label: 'Ing. civil', kicker: 'INFRAESTRUCTURA', title: 'Tecnología para construir mejor', copy: 'BIM, inteligencia artificial, materiales, sensores e innovación en ingeniería civil.', symbol: '△' },
+  { id: 'civilgeeks', label: 'CivilGeeks', kicker: 'DRENAJE Y SANEAMIENTO', title: 'Biblioteca práctica de drenaje', copy: 'Manuales, guías, proyectos y recursos técnicos publicados por CivilGeeks.', symbol: '≈' },
   { id: 'nobel', label: 'Nobel', kicker: 'IDEAS QUE CAMBIARON EL MUNDO', title: 'El descubrimiento detrás del premio', copy: 'Laureados, motivaciones y explicaciones de investigaciones reconocidas por el Nobel.', symbol: '✦' },
   { id: 'ai', label: 'IA', kicker: 'MODELOS Y HERRAMIENTAS', title: 'La inteligencia artificial en práctica', copy: 'OpenAI, Codex, Claude, DeepMind y herramientas para trabajar con IA.', symbol: '◈' },
   { id: 'spreadsheets', label: 'Excel y Sheets', kicker: 'PRODUCTIVIDAD', title: 'Hojas de cálculo que hacen más', copy: 'Excel, Google Sheets, Apps Script y nuevas formas de automatizar información.', symbol: '▦' },
@@ -34,10 +35,10 @@ const categories: Array<{ id: NewsCategoryId; label: string; kicker: string; tit
 
 const emptyFeed: NewsFeed = {
   updatedAt: '',
-  categories: { economy: [], science: [], civil: [], nobel: [], ai: [], spreadsheets: [], blog_sc: [] },
+  categories: { economy: [], science: [], civil: [], civilgeeks: [], nobel: [], ai: [], spreadsheets: [], blog_sc: [] },
 }
 
-const NEWS_CACHE_KEY = 'leo-financiero-news-feed-v2'
+const NEWS_CACHE_KEY = 'leo-financiero-news-feed-v3'
 const PULL_THRESHOLD = 72
 
 const dateFormatter = new Intl.DateTimeFormat('es-PE', { day: 'numeric', month: 'short', year: 'numeric' })

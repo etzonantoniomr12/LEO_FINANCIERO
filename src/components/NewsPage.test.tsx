@@ -7,7 +7,9 @@ const feed = {
   categories: {
     economy: [{ id: 'economy-1', title: 'Economía peruana', summary: 'Resumen.', source: 'Gestión', url: 'https://gestion.pe/economia/', publishedAt: '2026-11-07T10:00:00.000Z', language: 'es' }],
     science: [{ id: 'science-1', title: 'A new discovery', summary: 'An intermediate English summary.', source: 'NASA', url: 'https://www.nasa.gov/', publishedAt: '2026-11-06T10:00:00.000Z', language: 'en' }],
-    civil: [], nobel: [], ai: [], spreadsheets: [],
+    civil: [],
+    civilgeeks: [{ id: 'civilgeeks-1', title: 'Diseño de drenaje pluvial', summary: 'Guía técnica.', source: 'CivilGeeks', url: 'https://civilgeeks.com/diseno-drenaje-pluvial/', imageUrl: 'https://civilgeeks.com/wp-content/uploads/2025/08/drenaje.jpg', publishedAt: '2025-08-19T10:00:00.000Z', language: 'es' }],
+    nobel: [], ai: [], spreadsheets: [],
     blog_sc: [{ id: 'blog-1', title: 'Lección 1', summary: 'Primera publicación.', source: 'Soltera Codiciada', url: 'https://solteracodiciada.com/2012/01/05/leccion-1-simplemente-no-le-gustas/', publishedAt: '2012-01-05T18:46:16.000Z', language: 'es' }],
   },
 }
@@ -31,6 +33,17 @@ describe('portada editorial', () => {
     expect(screen.getByRole('link', { name: /A new discovery/ })).toHaveAttribute('href', 'https://www.nasa.gov/')
     await waitFor(() => expect(screen.queryByRole('link', { name: /Economía peruana/ })).not.toBeInTheDocument())
 
+    const categoryButtons = screen.getAllByRole('button').map((btn) => btn.textContent)
+    const civilIndex = categoryButtons.indexOf('Ing. civil')
+    const civilGeeksIndex = categoryButtons.indexOf('CivilGeeks')
+    expect(civilGeeksIndex).toBe(civilIndex + 1)
+
+    fireEvent.click(screen.getByRole('button', { name: 'CivilGeeks' }))
+    expect(screen.getByText('DRENAJE Y SANEAMIENTO')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Biblioteca práctica de drenaje' })).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /Diseño de drenaje pluvial/ })).toHaveAttribute('href', 'https://civilgeeks.com/diseno-drenaje-pluvial/')
+    expect(document.querySelector('.news-card-image')).toHaveAttribute('src', 'https://civilgeeks.com/wp-content/uploads/2025/08/drenaje.jpg')
+
     fireEvent.click(screen.getByRole('button', { name: 'BLOG SC' }))
     expect(screen.getByRole('heading', { name: 'Las lecciones de Soltera Codiciada' })).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /Lección 1/ })).toHaveAttribute('href', 'https://solteracodiciada.com/2012/01/05/leccion-1-simplemente-no-le-gustas/')
@@ -43,7 +56,7 @@ describe('portada editorial', () => {
       updatedAt: '2026-11-08T12:00:00.000Z',
       categories: { ...feed.categories, economy: [{ ...feed.categories.economy[0], id: 'economy-2', title: 'Nuevo titular económico' }] },
     }
-    localStorage.setItem('leo-financiero-news-feed-v2', JSON.stringify(cached))
+    localStorage.setItem('leo-financiero-news-feed-v3', JSON.stringify(cached))
     const fetchMock = vi.fn().mockResolvedValue({ ok: true, json: async () => updated })
     vi.stubGlobal('fetch', fetchMock)
     render(<NewsPage />)

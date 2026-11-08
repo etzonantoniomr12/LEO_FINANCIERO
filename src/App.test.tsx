@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { fireEvent, render, screen, within } from '@testing-library/react'
 import { describe, expect, it, vi } from 'vitest'
 import App from './App'
 import type { FinanceRepository } from './data/financeRepository'
@@ -23,16 +23,8 @@ const repository: FinanceRepository = {
 }
 
 describe('aplicación', () => {
-  it('no lee ni muestra la base financiera antes de validar el PIN', async () => {
-    const load = vi.fn(repository.load)
-    render(<App repository={{ ...repository, load }} />)
-    expect(screen.getByLabelText('PIN de acceso')).toBeInTheDocument()
-    expect(screen.queryByText('BCP')).not.toBeInTheDocument()
-    expect(load).not.toHaveBeenCalled()
-  })
-
   it('muestra fondos, saldos y actividad mensual', async () => {
-    render(<App repository={repository} requirePin={false} />)
+    render(<App repository={repository} />)
     expect(await screen.findByRole('img', { name: 'Mr Etzon Antonio' })).toBeInTheDocument()
     expect(await screen.findByText('BCP')).toBeInTheDocument()
     expect(screen.getByText('Comida')).toBeInTheDocument()
@@ -41,8 +33,8 @@ describe('aplicación', () => {
   })
 
   it('abre la portada editorial desde el botón de noticias', async () => {
-    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({ updatedAt: '', categories: { economy: [], science: [], civil: [], nobel: [], ai: [], spreadsheets: [], blog_sc: [] } }) }))
-    render(<App repository={repository} requirePin={false} />)
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({ updatedAt: '', categories: { economy: [], science: [], civil: [], civilgeeks: [], nobel: [], ai: [], spreadsheets: [], blog_sc: [] } }) }))
+    render(<App repository={repository} />)
     fireEvent.click(await screen.findByRole('button', { name: 'Noticias' }))
     expect(screen.getByText('NOTICIAS MUNDO')).toBeInTheDocument()
     expect(screen.getByRole('img', { name: 'Mr Etzon Antonio' })).toBeInTheDocument()
@@ -53,7 +45,7 @@ describe('aplicación', () => {
   })
 
   it('permite editar solo desde Movimientos y muestra sus filtros', async () => {
-    render(<App repository={repository} requirePin={false} />)
+    render(<App repository={repository} />)
     fireEvent.click(await screen.findByRole('button', { name: /Movimientos/ }))
     expect(screen.getByLabelText('Filtrar por categoría')).toBeInTheDocument()
     expect(screen.getByLabelText('Filtrar por fecha')).toBeInTheDocument()
@@ -62,7 +54,7 @@ describe('aplicación', () => {
   })
 
   it('muestra las acciones de respaldo y restauración en Configuración', async () => {
-    render(<App repository={repository} requirePin={false} />)
+    render(<App repository={repository} />)
     fireEvent.click(await screen.findByRole('button', { name: 'Configuración' }))
     expect(screen.getByRole('button', { name: /Subir a Sheets/ })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /Descargar de Sheets/ })).toBeInTheDocument()
@@ -78,24 +70,24 @@ describe('aplicación', () => {
       ...repository,
       load: async () => ({ ...data, movements: [{ ...data.movements[0], occurredAt: new Date(2026, 9, 15, 12).toISOString() }] }),
     }
-    render(<App repository={historicalRepository} initialAnalysisMonth={october} requirePin={false} />)
+    render(<App repository={historicalRepository} initialAnalysisMonth={october} />)
     expect(await screen.findAllByText(/90[,.]00/)).toHaveLength(2)
     expect(screen.getByText(/10[,.]00/)).toBeInTheDocument()
   })
 
   it('conserva la preferencia de ocultar montos al volver a abrir', async () => {
     localStorage.removeItem('control-money.amounts-visible')
-    const first = render(<App repository={repository} requirePin={false} />)
+    const first = render(<App repository={repository} />)
     fireEvent.click(await screen.findByRole('button', { name: 'Ocultar montos' }))
     expect(screen.getAllByText('S/ ••••••').length).toBeGreaterThan(1)
     first.unmount()
-    render(<App repository={repository} requirePin={false} />)
+    render(<App repository={repository} />)
     expect(await screen.findByRole('button', { name: 'Mostrar montos' })).toBeInTheDocument()
     localStorage.removeItem('control-money.amounts-visible')
   })
 
   it('permite recorrer los personajes y abrir su historia desde el saldo', async () => {
-    render(<App repository={repository} requirePin={false} />)
+    render(<App repository={repository} />)
     fireEvent.click(await screen.findByRole('button', { name: 'Mostrar billete de 200 soles: Tilsa Tsuchiya' }))
     fireEvent.click(screen.getByRole('button', { name: /Conocer a Tilsa Tsuchiya/ }))
     expect(screen.getByRole('dialog', { name: 'Historia del billete de 200 soles' })).toBeInTheDocument()
@@ -103,5 +95,77 @@ describe('aplicación', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Personaje siguiente' }))
     expect(screen.getByRole('dialog', { name: 'Historia del billete de 10 soles' })).toBeInTheDocument()
     expect(screen.getByText('Vicuña y Flor de Amancaes')).toBeInTheDocument()
+  })
+
+  it('el botón flotante + abre el diálogo para registrar movimiento y actualiza los saldos', async () => {
+    let currentData = { ...data }
+    const dynamicRepo: FinanceRepository = {
+      load: async () => currentData,
+      saveFund: async () => undefined,
+      saveCategory: async () => undefined,
+      saveMovement: async (mov) => {
+        currentData = { ...currentData, movements: [...currentData.movements, mov] }
+      },
+      deleteMovement: async () => undefined,
+      replaceSnapshot: async () => undefined,
+    }
+
+    render(<App repository={dynamicRepo} />)
+
+    const fab = await screen.findByRole('button', { name: 'Registrar movimiento' })
+    expect(fab).toBeInTheDocument()
+    expect(fab).not.toBeDisabled()
+    expect(fab).toHaveClass('fab')
+
+    fireEvent.click(fab)
+
+    const dialog = screen.getByRole('dialog', { name: 'Nuevo movimiento' })
+    expect(dialog).toBeInTheDocument()
+    fireEvent.change(screen.getByPlaceholderText('0.00'), { target: { value: '30.00' } })
+    fireEvent.change(screen.getByLabelText(/Tipo o categoría de egreso/), { target: { value: 'food' } })
+
+    fireEvent.click(within(dialog).getByRole('button', { name: 'Registrar movimiento' }))
+
+    expect(await screen.findAllByText(/60[,.]00/)).toHaveLength(2)
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
+  })
+
+  it('el botón flotante + se deshabilita si no existen fondos o categorías activas', async () => {
+    const emptyRepo: FinanceRepository = {
+      load: async () => ({ funds: [], categories: [], movements: [] }),
+      saveFund: async () => undefined,
+      saveCategory: async () => undefined,
+      saveMovement: async () => undefined,
+      deleteMovement: async () => undefined,
+      replaceSnapshot: async () => undefined,
+    }
+
+    render(<App repository={emptyRepo} />)
+
+    const fab = await screen.findByRole('button', { name: 'Registrar movimiento' })
+    expect(fab).toBeDisabled()
+    expect(fab).toHaveAttribute('title', 'Crea primero un fondo y una categoría')
+  })
+
+  it('el botón flotante + se oculta en Noticias y Configuración, y reaparece al volver', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({ updatedAt: '', categories: { economy: [], science: [], civil: [], civilgeeks: [], nobel: [], ai: [], spreadsheets: [], blog_sc: [] } }) }))
+
+    render(<App repository={repository} />)
+
+    expect(await screen.findByRole('button', { name: 'Registrar movimiento' })).toBeInTheDocument()
+
+    // En Noticias se oculta
+    fireEvent.click(screen.getByRole('button', { name: 'Noticias' }))
+    expect(screen.queryByRole('button', { name: 'Registrar movimiento' })).not.toBeInTheDocument()
+
+    // Al volver a Inicio reaparece
+    fireEvent.click(screen.getByRole('button', { name: 'Volver al inicio' }))
+    expect(screen.getByRole('button', { name: 'Registrar movimiento' })).toBeInTheDocument()
+
+    // En Configuración se oculta
+    fireEvent.click(screen.getByRole('button', { name: 'Configuración' }))
+    expect(screen.queryByRole('button', { name: 'Registrar movimiento' })).not.toBeInTheDocument()
+
+    vi.unstubAllGlobals()
   })
 })

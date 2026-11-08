@@ -23,7 +23,7 @@ const htmlSources = [
   { category: 'civil', source: 'Constructivo · Perú', language: 'es', url: 'https://constructivo.com/index.php', href: /\/noticia\//i, include: /BIM|tecnolog|robot|metaverso|digital|infraestructura inteligente|ingenier|construcción 3D|innovación/i },
 ]
 
-const categoryKeys = ['economy', 'science', 'civil', 'nobel', 'ai', 'spreadsheets', 'blog_sc']
+const categoryKeys = ['economy', 'science', 'civil', 'civilgeeks', 'nobel', 'ai', 'spreadsheets', 'blog_sc']
 const categories = Object.fromEntries(categoryKeys.map((key) => [key, []]))
 const results = await Promise.allSettled(sources.map(fetchFeed))
 for (const result of results) {
@@ -35,6 +35,12 @@ const htmlResults = await Promise.allSettled(htmlSources.map(fetchHtmlListing))
 for (const result of htmlResults) {
   if (result.status === 'fulfilled') categories[result.value.category].push(...result.value.items)
   else console.warn(result.reason instanceof Error ? result.reason.message : result.reason)
+}
+
+try {
+  categories.civilgeeks.push(...await fetchCivilGeeks())
+} catch (error) {
+  console.warn(error instanceof Error ? error.message : error)
 }
 
 try {
@@ -155,6 +161,44 @@ async function fetchSolteraCodiciada() {
   })).filter((post) => post.title && post.url)
 }
 
+async function fetchCivilGeeks() {
+  try {
+    const url = 'https://civilgeeks.com/wp-json/wp/v2/posts?categories=198&per_page=12&_embed'
+    const response = await fetch(url, {
+      headers: { accept: 'application/json', 'user-agent': 'LEO-Financiero-News/1.0 (+https://github.com/etzonantoniomr12/LEO_FINANCIERO)' },
+      signal: AbortSignal.timeout(20_000),
+    })
+    if (response.ok) {
+      const posts = await response.json()
+      if (Array.isArray(posts) && posts.length > 0) {
+        return posts.map((post) => {
+          const imageUrl = post._embedded?.['wp:featuredmedia']?.[0]?.source_url
+          return {
+            id: createHash('sha1').update(`civilgeeks:${post.id}`).digest('hex').slice(0, 16),
+            title: clean(post.title?.rendered ?? '', 180),
+            summary: clean(post.excerpt?.rendered ?? '', 360),
+            source: 'CivilGeeks',
+            url: decode(post.link ?? '').replace(/^http:/, 'https:'),
+            publishedAt: validDate(post.date_gmt ? `${post.date_gmt}Z` : post.date),
+            ...(imageUrl ? { imageUrl: decode(imageUrl).replace(/^http:/, 'https:') } : {}),
+            language: 'es',
+          }
+        }).filter((item) => item.title && item.url)
+      }
+    }
+  } catch (error) {
+    console.warn('WP REST API CivilGeeks no disponible, usando RSS...', error instanceof Error ? error.message : error)
+  }
+
+  const fallback = await fetchFeed({
+    category: 'civilgeeks',
+    source: 'CivilGeeks',
+    language: 'es',
+    url: 'https://civilgeeks.com/categor%C3%ADa/drenaje/feed/',
+  })
+  return fallback.items
+}
+
 async function fetchHtmlListing(config) {
   const html = await fetchText(config.url)
   const links = [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
@@ -224,7 +268,11 @@ function meta(html, name) {
 }
 
 function clean(value, limit) {
-  const text = decode(value.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim())
+  const text = decode(value
+    .replace(/The post\b[\s\S]*?appeared first on\s*CivilGeeks\.com\s*\.?/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim())
   return text.length > limit ? `${text.slice(0, limit - 1).trimEnd()}…` : text
 }
 
