@@ -161,7 +161,11 @@ export function BanknoteCarousel({
       <div className="wealth-heading">
         <span>Dinero disponible total</span>
         <button type="button" aria-label={amountsVisible ? 'Ocultar montos' : 'Mostrar montos'} onClick={onToggleAmounts}>
-          <span className={`eye-symbol ${amountsVisible ? '' : 'closed'}`} aria-hidden="true" />
+          <svg className="eye-symbol" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2.5 12s3.6-6 9.5-6 9.5 6 9.5 6-3.6 6-9.5 6-9.5-6-9.5-6Z" />
+            <circle cx="12" cy="12" r="2.7" />
+            {!amountsVisible && <path className="eye-slash" d="M4 4 20 20" />}
+          </svg>
         </button>
       </div>
       <button className="banknote-person" type="button" aria-label={`Conocer a ${active.name}, personaje del billete de ${active.denomination} soles`} onClick={() => setDetailOpen(true)}>

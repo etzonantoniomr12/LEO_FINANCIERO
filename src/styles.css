@@ -408,10 +408,8 @@ body { background: #050609; }
 .banknote-two-hundred { --note-deep:#15101d; --note-main:#60427b; --note-glow:rgba(168,113,205,.34); --note-accent:#e2c5eb; --note-soft:#d4c4dc; }
 .banknote-theme .wealth-heading span { color: var(--note-soft); }
 .banknote-theme .wealth-heading button { color: var(--note-accent); }
-.eye-symbol { position:relative; display:block; width:18px; height:12px; border:2px solid currentColor; border-radius:70% 20% 70% 20%; transform:rotate(45deg); }
-.eye-symbol::after { content:""; position:absolute; inset:2px; border-radius:50%; background:currentColor; }
-.eye-symbol.closed::before { content:""; position:absolute; left:7px; top:-5px; width:2px; height:18px; border-radius:2px; background:currentColor; }
-.eye-symbol.closed::after { opacity:.28; }
+.eye-symbol { display:block; width:21px; height:21px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.eye-symbol .eye-slash { stroke-width:2.35; }
 .banknote-person { position:absolute; z-index:1; right:-8px; top:14px; width:min(61%, 330px); height:230px; padding:0; border:0; color:var(--note-accent); background:transparent; cursor:pointer; }
 .banknote-person img { width:100%; height:100%; object-fit:contain; object-position:right top; filter:drop-shadow(0 13px 15px rgba(0,0,0,.38)); transition:opacity .25s ease, transform .4s ease; }
 .banknote-person:hover img, .banknote-person:focus-visible img { transform:translateY(-3px) scale(1.015); }
