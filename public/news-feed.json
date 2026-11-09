@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-08T04:11:24.505Z",
+  "updatedAt": "2026-11-09T01:36:22.554Z",
   "categoryUpdatedAt": {
-    "economy": "2026-11-08T02:29:30.577Z",
-    "science": "2026-11-08T02:29:30.577Z",
+    "economy": "2026-11-09T01:36:22.554Z",
+    "science": "2026-11-09T01:36:22.554Z",
     "civil": "2026-11-08T02:29:30.577Z",
     "civilgeeks": "2026-11-08T04:11:24.505Z",
     "nobel": "2026-11-08T02:29:30.577Z",
@@ -13,87 +13,150 @@
   "categories": {
     "economy": [
       {
-        "id": "9e58291a4cad487a",
-        "title": "Gloria acelera su negocio de panetones: ¿qué pasa dentro de su planta y cuánto espera crecer?",
-        "summary": "Gloria se prepara para la campaña navideña 2026 con una producción de 42,500 panetones diarios, nuevas variedades y una proyección de crecimiento de hasta 10%.",
+        "id": "c70ccbb8a5ae2778",
+        "title": "Grupo Sandoval amplía su negocio de coworking en Lima Cargo City: ¿qué viene para su próxima fase?",
+        "summary": "La unidad de coworking especializada en la comunidad de carga aérea creció 30% en área arrendable tras inaugurar su tercera fase. Inmobiliaria Koricancha evalúa una cuarta etapa en Lima Cargo City y analiza desarrollar una operación en el nuevo edificio corporativo del aeropuerto Jorge Chávez, que podría más que duplicar su capacidad actual.",
         "source": "Gestión",
-        "url": "https://gestion.pe/economia/empresas/que-hay-detras-del-paneton-gloria-asi-prepara-su-negocio-para-navidad-y-busca-crecer-hasta-10-noticia/",
-        "publishedAt": "2026-11-08T01:32:00.000Z",
-        "imageUrl": "https://gestion.pe/resizer/v2/TJI2IDU57NCLVNJGX6F22GD6EI.jpeg?auth=0b13e3f697e4e7e4307949fc16b7d034b979e36d98ec48d1876b8d29cb9c4eec&smart=true&width=1600&height=1200",
+        "url": "https://gestion.pe/economia/empresas/grupo-sandoval-evalua-ampliar-su-coworking-en-lima-cargo-city-y-llegar-al-aeropuerto-jorge-chavez-noticia/",
+        "publishedAt": "2026-11-09T01:00:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/RMPVZ4HBYFGMPEKIJGO7VFANLE.png?auth=007bf5483ba2eeedee1506d4d39ecb3ba560921f0e39b5323ddc48f59f45ec99&smart=true&width=1536&height=1024",
         "language": "es"
       },
       {
-        "id": "dd9af9a934a2c57c",
-        "title": "¿Una alternativa para elevar la productividad del agro peruano? Los cultivos en el radar",
-        "summary": "La tecnología agrícola de Israel podría mejorar la productividad del agro peruano. Conoce las alternativas para optimizar el uso del agua y reducir costos en estos cultivos.",
+        "id": "707b0cc949c7ea3f",
+        "title": "Claro Perú refuerza su red ante El Niño y acelera su negocio de nube e IA para empresas",
+        "summary": "Claro Empresas alista su red ante El Niño con un plan de tres frentes. Además, apunta a crecer a doble dígito en 2027. ¿En qué servicios?",
         "source": "Gestión",
-        "url": "https://gestion.pe/economia/agricultura-de-peru-una-alternativa-para-elevar-la-productividad-del-agro-los-cultivos-en-el-radar-noticia/",
-        "publishedAt": "2026-11-08T00:31:00.000Z",
-        "imageUrl": "https://gestion.pe/resizer/v2/JKQYBU564VGAPDRK5NXVDS4D7U.png?auth=70740d5848486e048711ed3769b8afe7733eb0525f40242a5c7a0a90307a1c2d&smart=true&width=1672&height=940",
+        "url": "https://gestion.pe/economia/empresas/claro-alista-su-red-ante-el-nino-y-apuesta-por-nube-e-ia-para-crecer-a-doble-digito-noticia/",
+        "publishedAt": "2026-11-08T23:00:40.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/FREW2PB4PVEZ5IO7P5H4SLX654.png?auth=cdb2ff67c5f01de7ff61a13f5d63946e7adf5546eb5945236c40a813649f2d37&smart=true&width=1280&height=712",
         "language": "es"
       },
       {
-        "id": "252a14b9cf00a89b",
-        "title": "El papa en el Centro de Lima: negocios duplicarían ventas y hoteles alcanzarían el 100% de ocupación",
-        "summary": "La llegada del papa León XIV al Perú, prevista del 11 al 16 de noviembre, tendrá uno de sus principales momentos en el Centro Histórico de Lima. El jueves 12, el pontífice participará en actividades en el Palacio Arzobispal, la Catedral de Lima y la Plaza Mayor, luego de llegar a la capital el miércoles 11, cuando también tendrá actividades en Palacio de Go…",
+        "id": "c41bd849f6c2a45c",
+        "title": "Peruana Aarmy Gym apunta a tres nuevos gimnasios en 2027 y prepara su expansión fuera del país",
+        "summary": "Lo que comenzó en 2023 como un pequeño gimnasio para que sus propios fundadores pudieran entrenar y realizar sesiones de fotos terminó convirtiéndose en una cadena de seis sedes. Aarmy Gym pasó de nueve primeros usuarios a entre 2,900 y 3,500 clientes constantes, en un crecimiento que llevó a la compañía a replantear su estrategia y acelerar su expansión.",
         "source": "Gestión",
-        "url": "https://gestion.pe/economia/empresas/el-papa-leon-xiv-visitara-el-centro-de-lima-negocios-duplicarian-ventas-y-hoteles-alcanzarian-el-100-de-ocupacion-noticia/",
-        "publishedAt": "2026-11-07T23:31:17.000Z",
-        "imageUrl": "https://gestion.pe/resizer/v2/KFDXK57EBVGDFD6AY3DNYZM5LU.png?auth=db5a70b41950b114e7c5329080750cb3f670e26ba9eabbfe4efc4459efb2440b&smart=true&width=1672&height=941",
+        "url": "https://gestion.pe/economia/empresas/cadena-peruana-de-gimnasios-aarmy-gym-acelera-su-expansion-seis-sedes-en-tres-anos-y-el-sueno-internacional-a-eeuu-fitness-noticia/",
+        "publishedAt": "2026-11-08T23:00:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/YK7ZBRHUQNCFRISFAD6OE46DYU.jpg?auth=52f1ce954bea20326ef4d989d1b9c1061d8712d291678c766c1cf4afea22049c&smart=true&width=800&height=500",
         "language": "es"
       },
       {
-        "id": "719fc9e6baa55c73",
-        "title": "Perú superaría a Chile y sería la cuarta economía más grande de Sudamérica el 2027",
-        "summary": "Perú podría superar a Chile y convertirse en la cuarta economía más grande de Sudamérica en 2027, de acuerdo con la proyección del Fondo Monetario Internacional (FMI). En base en su informe World Economic Outlook, cuyas estimaciones fueron recogidas por el diario chileno La Tercera.",
+        "id": "2eefa7023b600237",
+        "title": "inDrive, de la movilidad a la logística y dos nuevos servicios en la mira al 2027",
+        "summary": "El mercado de apps de movilidad en Perú atraviesa un año de consolidación dentro y fuera de Lima. En concreto, un estudio de Ipsos reveló que ocho de cada 10 limeños usan esos aplicativos y seis de cada 10 en regiones ya los incorporó a su rutina diaria en el primer trimestre de 2026. En ese contexto, inDrive cumple ocho años en el mercado local superando l…",
         "source": "Gestión",
-        "url": "https://gestion.pe/economia/peru-podria-superar-a-chile-y-convertirse-en-la-cuarta-economia-mas-grande-de-sudamerica-en-2027-noticia/",
-        "publishedAt": "2026-11-07T21:06:25.000Z",
-        "imageUrl": "https://gestion.pe/resizer/v2/UFFKSENBI5EAFO34WJE7ECG7N4.jpg?auth=adacf43513a9b55a0990e35e8e9643398de62dc20cc12ff33e8a1e59d0e81ab8&smart=true&width=3888&height=2592",
+        "url": "https://gestion.pe/economia/empresas/indrive-potenciara-logistica-para-pymes-y-explora-dos-nuevos-servicios-mas-alla-de-la-movillidad-para-el-2027-noticia/",
+        "publishedAt": "2026-11-08T21:45:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/MPJJYVPBFBALLOCUBRJQB2X56Y.jpg?auth=5a0c46db0e05d30b886f27f1f55116e1099a6a3baea0695e86bfbb3ff914aed0&smart=true&width=1920&height=1080",
         "language": "es"
       },
       {
-        "id": "5b4c24444cf918c5",
-        "title": "Empresa estadounidense Vista Vineyards apuesta por Perú para la producción de uva",
-        "summary": "La estadounidense Vista Vineyards avanza en su estrategia de producción de uva de mesa en Perú. La compañía completó su primera plantación de más de 200 hectáreas en Olmos, Lambayeque, y prevé iniciar la producción comercial durante la temporada de importación 2027-2028, con el objetivo de complementar su oferta de California y ampliar el periodo de abastec…",
+        "id": "8ac728fd3f986ed9",
+        "title": "Kjolle alcanza el séptimo puesto en The 50 Best: ¿qué prepara Pía León para lo que viene?",
+        "summary": "La fundadora de Kjolle habló con Gestión sobre el impacto de los reconocimientos internacionales en su negocio, la posibilidad de abrir nuevos restaurantes fuera del Perú y los proyectos que contempla desarrollar junto a MIL y Mater. Además, explicó los costos que implica sostener su propuesta gastronómica, que reúne a cerca de 200 personas.",
         "source": "Gestión",
-        "url": "https://gestion.pe/economia/empresas/empresa-estadounidense-vista-vineyards-apuesta-por-peru-sembro-mas-de-200-hectareas-de-uva-en-olmos-lambayeque-noticia/",
-        "publishedAt": "2026-11-07T20:16:00.000Z",
-        "imageUrl": "https://gestion.pe/resizer/v2/KSEJHSNF6ZF45OSP2WZWHLRK7Y.jpg?auth=8027e19d2d37900cde94bd9222979da35971e4baed58b55978913302d20afbb9&smart=true&width=1200&height=800",
+        "url": "https://gestion.pe/economia/empresas/pia-leon-abre-la-puerta-a-expandir-su-negocio-gastronomico-fuera-del-peru-noticia/",
+        "publishedAt": "2026-11-08T21:31:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/H4JAATV7CBGSPJK5KRMX65DDRM.JPG?auth=10e175c4737aee6ed4f614bda379b6f2435135c89ffd7054f1b61cffd00c1fb0&smart=true&width=993&height=555",
         "language": "es"
       },
       {
-        "id": "f9c990b11c66dc49",
-        "title": "Empresas: ¿qué fallas en su modelo de prevención pueden exponerlas penalmente?",
-        "summary": "Implementar un modelo de prevención de delitos no garantiza, por sí solo, que una empresa esté protegida frente a una eventual responsabilidad penal. La diferencia está en cómo se identifican los riesgos, qué controles se aplican y si estos funcionan realmente dentro de la organización. Un sistema que existe únicamente en documentos puede resultar insuficie…",
+        "id": "822394ed5d990260",
+        "title": "Cusco recibiría más de US$ 11 millones por CADE 2026: ¿está listo para el turismo de negocios?",
+        "summary": "La edición 64 de CADE, que regresará al Valle Sagrado después de tres años, convocará a más de 1,000 participantes y generaría un movimiento económico de US$ 11.05 millones. Sin embargo, Cusco aún enfrenta desafíos para recuperar el turismo receptivo y fortalecer su infraestructura para eventos empresariales.",
         "source": "Gestión",
-        "url": "https://gestion.pe/economia/empresas/empresas-que-fallas-en-su-modelo-de-prevencion-pueden-exponerlas-penalmente-noticia/",
-        "publishedAt": "2026-11-07T19:54:00.000Z",
-        "imageUrl": "https://gestion.pe/resizer/v2/XXP24SZPFZGMBLDFFJ2FSGUV2I.png?auth=84ac8d0eddfd3c076e40927d1240a2b77994d36457f035e7c84060fba43f639c&smart=true&width=1200&height=800",
+        "url": "https://gestion.pe/economia/empresas/cade-2026-cusco-proyecta-un-movimiento-economico-de-s-38-millones-y-espera-elevar-la-ocupacion-hotelera-noticia/",
+        "publishedAt": "2026-11-08T21:00:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/RKOZL2TGSREQLE72VGSNH4KXKA.jpg?auth=3ac9f582d680db92832dc2fe82a6f72a27721c7835eef4fff91cba418549311f&smart=true&width=1200&height=800",
         "language": "es"
       },
       {
-        "id": "eed93a635a742c4e",
-        "title": "UPC adquiere UCAL por US$ 35 millones y ampliará su capacidad en Lima",
-        "summary": "UPC adquirió UCAL por US$ 35 millones. El campus tiene capacidad para 5,000 estudiantes y se integrará en febrero de 2027.",
+        "id": "b5d8f863a9b47b01",
+        "title": "DP World va por la fase 3 del Muelle Sur del Callao: plazos y la condición para invertir",
+        "summary": "DP World, operador del Muelle Sur del Callao, ya planifica la fase 3 de ese terminal apenas un año después de inaugurar su última ampliación. ¿Qué plazos maneja y de qué depende la inversión?",
         "source": "Gestión",
-        "url": "https://gestion.pe/economia/empresas/upc-adquiere-ucal-por-us35-millones-y-ampliara-su-capacidad-en-lima-noticia/",
-        "publishedAt": "2026-11-07T19:22:54.000Z",
-        "imageUrl": "https://gestion.pe/resizer/v2/OUVKUV27IZFA5MVRARR6RS55UM.png?auth=1e973dbbcdd83245807ecf3182f31203c276ef5452d3da3fe1fe7515cd268434&smart=true&width=1200&height=630",
+        "url": "https://gestion.pe/economia/empresas/puerto-del-callao-dp-world-alista-otra-ampliacion-del-muelle-sur-pero-pone-una-condicion-noticia/",
+        "publishedAt": "2026-11-08T21:00:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/YTIELQZTZJHO3CAXOI7SJN57I4.jpg?auth=da10000f44d15f8326a83ec0ebbfc529e9da456e07477c6a0fa33cd403861750&smart=true&width=1200&height=668",
         "language": "es"
       },
       {
-        "id": "76a0022606a6c412",
-        "title": "¿Empresas en Perú empezarían a trasladar alza de combustibles a sus precios de venta?",
-        "summary": "Al 85% de las compañías encuestadas les ha afectado el incremento del precio de los combustibles en sus costos en alguna medida, revela el BCRP.",
+        "id": "c800d9fcad65cf41",
+        "title": "Parejas que compran un departamento y luego se separan: ¿quién se queda con la vivienda?",
+        "summary": "¿Qué pasa con un departamento comprado en pareja si la relación termina? Conoce quién conserva la propiedad, qué sucede con la hipoteca y cuándo puede venderse.",
         "source": "Gestión",
-        "url": "https://gestion.pe/economia/glp-gasolina-y-otros-en-peru-empresas-empezarian-a-trasladar-alza-de-combustibles-al-precio-de-venta-noticia/",
-        "publishedAt": "2026-11-07T18:13:19.000Z",
-        "imageUrl": "https://gestion.pe/resizer/v2/JKB5URGMQJCHZAJQR44MDSOK2Y.jpg?auth=dec9f1751da4211e290ae6af05553ebb64e9c793fc8079f504e5d55c305772a1&smart=true&width=1200&height=800",
+        "url": "https://gestion.pe/economia/parejas-que-compran-un-departamento-y-luego-se-separan-quien-se-queda-con-la-vivienda-noticia/",
+        "publishedAt": "2026-11-08T20:45:00.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/XDEQF6BI4VE3HIWO5Q6D44AW3E.jpeg?auth=ef9addce81dfee12a699294aef3b9de3b67181abd731d14f622d4459ba75c0c0&smart=true&width=1600&height=901",
         "language": "es"
       }
     ],
     "science": [
+      {
+        "id": "db29a929de49f99d",
+        "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
+        "summary": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
+        "source": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+        "publishedAt": "2026-11-08T15:26:38.000Z",
+        "language": "en"
+      },
+      {
+        "id": "89ddb25e50399db7",
+        "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+        "summary": "A nuclear explosion might save Earth from a deadly asteroid, but new research suggests that hitting the wrong side could make the difference between success and disaster. Scientists found that an asteroid's irregular shape can dramatically affect how it responds to an X-ray blast, with deflection effectiveness varying nearly fivefold depending on the angle.",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+        "publishedAt": "2026-11-08T10:11:25.000Z",
+        "language": "en"
+      },
+      {
+        "id": "57e786d167127611",
+        "title": "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
+        "summary": "Scientists investigating a 2,800-year-old Siberian tomb discovered roughly 1,000 cannabis seeds and chemical evidence suggesting ancient Scythians used the plant for its intoxicating effects. The remarkable find, surrounded by evidence of elaborate burial rituals and animal sacrifices, offers the oldest directly dated archaeological evidence of psychoactive…",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
+        "publishedAt": "2026-11-08T08:14:23.000Z",
+        "language": "en"
+      },
+      {
+        "id": "991675040f1d111b",
+        "title": "APOD: 2026 November 8 – Major Fireball Meteor",
+        "summary": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor […]",
+        "source": "NASA",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+        "publishedAt": "2026-11-08T05:05:00.000Z",
+        "language": "en"
+      },
+      {
+        "id": "81f9a68d3ca07e85",
+        "title": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
+        "summary": "A surprising new study suggests that a stronger flu shot could offer older adults significantly greater protection against Alzheimer's disease. Researchers at UTHealth Houston analyzed nearly 200,000 adults ages 65 and older and found that those who received a high-dose influenza vaccine had a nearly 55% lower risk of developing Alzheimer's, compared with a…",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm",
+        "publishedAt": "2026-11-08T02:52:28.000Z",
+        "language": "en"
+      },
+      {
+        "id": "666fab6697a2054d",
+        "title": "Mysterious gas leaks suggest Mars may still be volcanically alive",
+        "summary": "Mysterious gas emissions and fresh volcanic fissures suggest that Mars may not be geologically dead after all, with hot magma potentially still active deep underground. The discovery could point to hidden pockets of warmth and chemical energy capable of supporting microbial life beneath the Red Planet’s surface.",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
+        "publishedAt": "2026-11-08T01:09:55.000Z",
+        "language": "en"
+      },
+      {
+        "id": "e897db70f9a6aeed",
+        "title": "A hidden limit of space and time could unlock electronics 100,000 times faster",
+        "summary": "Scientists have discovered a surprising quantum limit that prevents electrons from being tracked with unlimited precision in both space and time. The breakthrough could pave the way for manipulating chemical reactions and developing electronics hundreds of thousands of times faster than today's technology.",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm",
+        "publishedAt": "2026-11-07T23:34:19.000Z",
+        "language": "en"
+      },
       {
         "id": "85989f458aca50fb",
         "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
@@ -110,24 +173,6 @@
         "source": "NASA",
         "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
         "publishedAt": "2026-11-07T18:11:57.000Z",
-        "language": "en"
-      },
-      {
-        "id": "5a8e1a551ccc0e9e",
-        "title": "Human bodies produce 2 billion metric tons of CO2 a year just by staying alive",
-        "summary": "Humans collectively produce more than 2 billion tonnes of carbon dioxide annually just by turning food into energy, a 74% increase over three decades largely driven by population growth. Unlike fossil fuel emissions, however, the CO2 we exhale is part of the natural carbon cycle, and scientists say measuring it more accurately could improve climate models.",
-        "source": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261104012305.htm",
-        "publishedAt": "2026-11-07T10:00:03.000Z",
-        "language": "en"
-      },
-      {
-        "id": "a0c91428cdffdaa6",
-        "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
-        "summary": "Scientists have uncovered evidence that Europe was dominated for more than 20 million years by open woodlands, colorful meadows, and large grazing animals, not the dense forests long considered its natural state. The surprising discovery challenges modern reforestation strategies, suggesting that planting thick forests could actually harm the biodiversity c…",
-        "source": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
-        "publishedAt": "2026-11-07T09:44:48.000Z",
         "language": "en"
       },
       {
@@ -155,51 +200,6 @@
         "source": "NASA",
         "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
         "publishedAt": "2026-11-06T16:03:52.000Z",
-        "language": "en"
-      },
-      {
-        "id": "f77f0c8b5d8597fe",
-        "title": "Scientists just found dinosaur blood that survived 115 million years",
-        "summary": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can survive. The extraordinary preservation could unlock new clues about dinosaur physiology and even help scientists search for ancient life elsewhere in the universe.",
-        "source": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
-        "publishedAt": "2026-11-06T11:28:01.000Z",
-        "language": "en"
-      },
-      {
-        "id": "ded195b67df856f2",
-        "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
-        "summary": "November's night sky is packed with celestial wonders, from bright meteor fireballs and a close pairing of Mars and Jupiter to a spectacular supermoon. Meanwhile, NASA's Voyager 1 is making history by becoming the first spacecraft to reach a distance of one light-day from Earth.",
-        "source": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
-        "publishedAt": "2026-11-06T08:21:08.000Z",
-        "language": "en"
-      },
-      {
-        "id": "0166da27463e862f",
-        "title": "NASA’s Swift telescope falls to Earth after nearly 22 years in space",
-        "summary": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia. Originally designed to last just two years, the pioneering space telescope transformed our understanding of black holes, exploding stars, and mysterious cosmic outbursts.",
-        "source": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261105224545.htm",
-        "publishedAt": "2026-11-06T07:12:55.000Z",
-        "language": "en"
-      },
-      {
-        "id": "6422bdd6cccc8d7b",
-        "title": "APOD: 2026 November 6 – A Farewell to Swift",
-        "summary": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Farewell […]",
-        "source": "NASA",
-        "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
-        "publishedAt": "2026-11-06T05:05:00.000Z",
-        "language": "en"
-      },
-      {
-        "id": "7c2f3fe0fed340d1",
-        "title": "Taking a Gander at Utah’s Goosenecks",
-        "summary": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
-        "source": "NASA",
-        "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
-        "publishedAt": "2026-11-06T05:01:00.000Z",
         "language": "en"
       }
     ],

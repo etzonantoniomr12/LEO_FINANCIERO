@@ -19,6 +19,7 @@
 html { background: #111827; }
 body { margin: 0; min-width: 320px; min-height: 100vh; background: #f5f6fa; }
 button, input, select, textarea { font: inherit; }
+button, a { touch-action: manipulation; }
 button { -webkit-tap-highlight-color: transparent; }
 
 .app-shell { min-height: 100dvh; max-width: 720px; margin: 0 auto; padding-bottom: calc(96px + env(safe-area-inset-bottom)); background: #f5f6fa; }
@@ -580,6 +581,20 @@ body { background: #050609; }
 .news-card footer { display:flex; align-items:end; justify-content:space-between; gap:12px; margin-top:4px; padding-top:14px; border-top:1px solid #2d2e33; }
 .news-card footer b { color:var(--news-accent); }
 .news-card footer time { color:#88857e; font-size:clamp(.82rem,1.9vw,.95rem); text-align:right; }
+.news-load-more { min-height:52px; padding:12px 18px; border:1px solid color-mix(in srgb,var(--news-accent) 46%,#34353a); border-radius:18px; color:var(--news-accent); background:#17181c; font-weight:800; }
+.news-load-more span { display:inline-grid; place-items:center; min-width:30px; min-height:30px; margin-left:8px; border-radius:999px; color:#111216; background:var(--news-accent); }
+
+/* Chrome Android: conserva la identidad visual evitando repintados costosos. */
+.android .page-stack { animation:none; }
+.android .top-bar { background:#090a0d; -webkit-backdrop-filter:none; backdrop-filter:none; }
+.android .panel,
+.android .analysis-hero,
+.android .month-selector { box-shadow:0 4px 14px rgba(0,0,0,.17); }
+.android .news-page .news-cover,
+.android .banknote-theme,
+.android .banknote-person img,
+.android .banknote-dots button { transition:none; }
+.android .news-card { content-visibility:auto; contain-intrinsic-size:320px; }
 
 @media (max-width:420px) {
   .top-bar { gap:8px; }

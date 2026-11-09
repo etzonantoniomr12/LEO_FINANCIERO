@@ -3,7 +3,9 @@ import type { FinanceSnapshot } from '../domain/models'
 
 const SHEETS_SCOPE = 'https://www.googleapis.com/auth/spreadsheets'
 const API_ROOT = 'https://sheets.googleapis.com/v4/spreadsheets'
+const GOOGLE_IDENTITY_URL = 'https://accounts.google.com/gsi/client'
 const CORE_SHEETS = ['METADATA', 'FONDOS', 'CATEGORIAS', 'MOVIMIENTOS'] as const
+let googleIdentityPromise: Promise<void> | null = null
 
 interface GoogleTokenResponse { access_token?: string; error?: string; error_description?: string }
 interface GoogleTokenClient { requestAccessToken(options?: { prompt?: string }): void }
@@ -84,7 +86,8 @@ export function extractSpreadsheetId(value: string): string | null {
   return /^[a-zA-Z0-9-_]{20,}$/.test(id) ? id : null
 }
 
-function requestGoogleAccessToken(clientId: string): Promise<string> {
+async function requestGoogleAccessToken(clientId: string): Promise<string> {
+  await loadGoogleIdentity()
   const google = (window as GoogleIdentityWindow).google
   if (!google?.accounts.oauth2) throw new Error('Google Identity todavía no está disponible. Revisa tu conexión e inténtalo nuevamente.')
   return new Promise((resolve, reject) => {
@@ -96,6 +99,30 @@ function requestGoogleAccessToken(clientId: string): Promise<string> {
     })
     client.requestAccessToken({ prompt: '' })
   })
+}
+
+function loadGoogleIdentity(): Promise<void> {
+  if ((window as GoogleIdentityWindow).google?.accounts.oauth2) return Promise.resolve()
+  if (googleIdentityPromise) return googleIdentityPromise
+  const pending = new Promise<void>((resolve, reject) => {
+    const existing = document.querySelector<HTMLScriptElement>(`script[src="${GOOGLE_IDENTITY_URL}"]`)
+    const script = existing ?? document.createElement('script')
+    const complete = () => (window as GoogleIdentityWindow).google?.accounts.oauth2
+      ? resolve()
+      : reject(new Error('Google Identity no pudo inicializarse.'))
+    script.addEventListener('load', complete, { once: true })
+    script.addEventListener('error', () => reject(new Error('No se pudo cargar la autorización de Google.')), { once: true })
+    if (!existing) {
+      script.src = GOOGLE_IDENTITY_URL
+      script.async = true
+      document.head.append(script)
+    }
+  }).catch((error) => {
+    googleIdentityPromise = null
+    throw error
+  })
+  googleIdentityPromise = pending
+  return pending
 }
 
 function normalizeRows(values: unknown[][]): string[][] {

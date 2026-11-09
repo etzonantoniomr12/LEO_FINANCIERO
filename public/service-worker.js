@@ -1,4 +1,4 @@
-const CACHE_NAME = 'leo-financiero-v6'
+const CACHE_NAME = 'leo-financiero-v7'
 const BASE_PATH = new URL(self.registration.scope).pathname
 const fromBase = (path = '') => `${BASE_PATH}${path}`
 const STATIC_FILES = [
@@ -39,22 +39,29 @@ self.addEventListener('activate', (event) => {
 })
 
 self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET' || new URL(event.request.url).origin !== self.location.origin) return
-
-  event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        if (response.ok) {
-          const copy = response.clone()
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy))
-        }
-        return response
-      })
-      .catch(async () => {
-        const cached = await caches.match(event.request)
-        if (cached) return cached
-        if (event.request.mode === 'navigate') return caches.match(fromBase('index.html'))
-        return Response.error()
-      }),
-  )
+  const url = new URL(event.request.url)
+  if (event.request.method !== 'GET' || url.origin !== self.location.origin) return
+  const staticAsset = url.pathname.includes('/assets/') || (STATIC_FILES.includes(url.pathname) && !url.pathname.endsWith('/news-feed.json'))
+  event.respondWith(staticAsset ? cacheFirst(event.request) : networkFirst(event.request))
 })
+
+async function cacheFirst(request) {
+  const cached = await caches.match(request)
+  if (cached) return cached
+  const response = await fetch(request)
+  if (response.ok) (await caches.open(CACHE_NAME)).put(request, response.clone())
+  return response
+}
+
+async function networkFirst(request) {
+  try {
+    const response = await fetch(request)
+    if (response.ok) (await caches.open(CACHE_NAME)).put(request, response.clone())
+    return response
+  } catch {
+    const cached = await caches.match(request)
+    if (cached) return cached
+    if (request.mode === 'navigate') return caches.match(fromBase('index.html'))
+    return Response.error()
+  }
+}

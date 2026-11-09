@@ -73,4 +73,26 @@ describe('portada editorial', () => {
     expect(fetchMock).toHaveBeenCalledTimes(1)
     expect(screen.getByText('Portada actualizada')).toBeInTheDocument()
   })
+
+  it('renderiza por bloques los archivos extensos de noticias', async () => {
+    const posts = Array.from({ length: 13 }, (_, index) => ({
+      id: `blog-${index + 1}`,
+      title: `Publicación ${index + 1}`,
+      summary: 'Reseña.',
+      source: 'Soltera Codiciada',
+      url: `https://solteracodiciada.com/publicacion-${index + 1}/`,
+      publishedAt: '2012-01-05T18:46:16.000Z',
+      language: 'es',
+    }))
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({ ...feed, categories: { ...feed.categories, blog_sc: posts } }) }))
+    render(<NewsPage />)
+
+    await screen.findByRole('link', { name: /Economía peruana/ })
+    fireEvent.click(screen.getByRole('button', { name: 'BLOG SC' }))
+    expect(screen.getByRole('link', { name: /Publicación 12/ })).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: /Publicación 13/ })).not.toBeInTheDocument()
+
+    fireEvent.click(screen.getByRole('button', { name: /Mostrar más publicaciones/ }))
+    expect(screen.getByRole('link', { name: /Publicación 13/ })).toBeInTheDocument()
+  })
 })

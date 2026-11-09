@@ -6,6 +6,7 @@ import './styles.css'
 
 const isDemo = new URLSearchParams(window.location.search).get('demo') === '31'
 const demo = isDemo ? create31DayDemo() : null
+document.documentElement.classList.toggle('android', /Android/i.test(navigator.userAgent))
 
 createRoot(document.getElementById('root')!).render(<StrictMode><App repository={demo ? new DemoFinanceRepository(demo.snapshot) : undefined} initialAnalysisMonth={demo?.month} demoMode={Boolean(demo)} /></StrictMode>)
 

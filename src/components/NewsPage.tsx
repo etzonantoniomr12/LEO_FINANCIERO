@@ -40,6 +40,7 @@ const emptyFeed: NewsFeed = {
 
 const NEWS_CACHE_KEY = 'leo-financiero-news-feed-v3'
 const PULL_THRESHOLD = 72
+const NEWS_PAGE_SIZE = 12
 
 const dateFormatter = new Intl.DateTimeFormat('es-PE', { day: 'numeric', month: 'short', year: 'numeric' })
 const updatedFormatter = new Intl.DateTimeFormat('es-PE', { dateStyle: 'medium', timeStyle: 'short' })
@@ -51,10 +52,12 @@ export function NewsPage() {
   const [loading, setLoading] = useState(!initialFeed)
   const [pullDistance, setPullDistance] = useState(0)
   const [refreshState, setRefreshState] = useState<RefreshState>('idle')
+  const [visibleCount, setVisibleCount] = useState(NEWS_PAGE_SIZE)
   const touchStartY = useRef<number | null>(null)
   const statusTimer = useRef<number | null>(null)
   const category = categories.find((item) => item.id === selected) ?? categories[0]
   const articles = useMemo(() => feed.categories[selected] ?? [], [feed, selected])
+  const visibleArticles = useMemo(() => articles.slice(0, visibleCount), [articles, visibleCount])
   const categoryUpdatedAt = feed.categoryUpdatedAt?.[selected] ?? feed.updatedAt
 
   useEffect(() => {
@@ -76,6 +79,8 @@ export function NewsPage() {
   useEffect(() => () => {
     if (statusTimer.current) window.clearTimeout(statusTimer.current)
   }, [])
+
+  useEffect(() => setVisibleCount(NEWS_PAGE_SIZE), [selected])
 
   const handleTouchStart = (event: TouchEvent<HTMLDivElement>) => {
     if (window.scrollY > 0 || refreshState === 'refreshing') return
@@ -145,14 +150,15 @@ export function NewsPage() {
     <section className="news-grid" aria-live="polite" aria-label={`Noticias de ${category.label}`}>
       {loading && <div className="news-state"><span>◌</span><b>Actualizando portada…</b></div>}
       {!loading && articles.length === 0 && <div className="news-state"><span>{category.symbol}</span><b>No hay noticias disponibles</b><p>Con conexión, la siguiente actualización volverá a consultar las fuentes.</p></div>}
-      {articles.map((item, index) => <article key={item.id} className={`news-card news-card-${index % 3 + 1}`}>
-        {item.imageUrl && <img className="news-card-image" src={item.imageUrl} alt="" loading="lazy" referrerPolicy="no-referrer" />}
+      {visibleArticles.map((item, index) => <article key={item.id} className={`news-card news-card-${index % 3 + 1}`}>
+        {item.imageUrl && <img className="news-card-image" src={item.imageUrl} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />}
         <div className="news-card-symbol" aria-hidden="true">{category.symbol}</div>
         <span>{item.language === 'en' ? 'ENGLISH' : category.label.toUpperCase()}</span>
         <a className="news-headline" href={item.url} target="_blank" rel="noreferrer" aria-label={`${item.title} · Abrir en ${item.source}`}><h2>{item.title}</h2><i aria-hidden="true">↗</i></a>
         <p>{item.summary}</p>
         <footer><b>{item.source}</b><time>{formatPublishedAt(item.publishedAt)}</time></footer>
       </article>)}
+      {visibleCount < articles.length && <button className="news-load-more" type="button" onClick={() => setVisibleCount((count) => count + NEWS_PAGE_SIZE)}>Mostrar más publicaciones <span>{articles.length - visibleCount}</span></button>}
     </section>
   </div>
 }
